@@ -76,8 +76,9 @@ def main():
         stem_cont_weight_lst = []
         entry_set = set()
         for res in res_lst:
-            if not res.strip():
+            if not res.strip() or res.find("/") < 0:
                 continue
+            res = res.replace("_", "{§}")
             if args.verbosity >= 10:
                 print("res =", res)
             entry_feat, weight_str = res.split("\t")

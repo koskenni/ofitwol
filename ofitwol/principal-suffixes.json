@@ -1,6 +1,38 @@
 {
-    "/s": ["", "n", "{nrs}{aä}", "{ij}{Øt}{aä}"],
-    "/v": ["{dlnrtØ}{aä}", "n", "{i}{VØ}", "isi",
-           "{C}", "{nlrs}{uy}{tØthn}{ØeØØØ}"],
-    "/a": ["", "n", "{nrs}{aä}", "{ij}{Øt}{aä}", "m{pm}i"]
+    "/s": [
+	"", "n", "{nrs}{aä}", "{ij}{Øt}{aä}"],
+    "/a": [
+	"", "n", "{nrs}{aä}", "{ij}{Øt}{aä}", "m{pm}i"],
+    "/p": [""],
+    "/pc": [""],
+    "/po": [""],
+    "/ps": [""],
+    "/v": [
+	"{dlnrtØ}{aä}",
+	"n",
+	"{i}{VØ}",
+	"isi",
+        "{C}",
+	"{nlrs}{uy}{tØthn}{ØeØØØ}"],
+    "tse/v": [
+	"{dlnrtØ}{aä}",
+	"n", "{tnt}{sØ}{eØØØei}n",
+	"{i}{VØ}", "{tnt}{sØ}{eØØØei}{i}{VØ}",
+	"isi",
+        "{C}", "{tnt}{sØ}{eØØØei}{C}",
+	"{tnt}{sØ}{eØØØei}{nlrs}{uy}{tØthn}{ØeØØØ}"],
+    "aja/v": [
+	"is{eØØØØi}{dlnrtØ}{aä}", "ja{dlnrtØ}{aä}",
+	"is{eØØØØi}n", "jan",
+	"is{eØØØØi}{i}{VØ}",
+	"is{eØØØØi}isi", "ajaisi",
+        "is{eØØØØi}{C}",
+	"is{eØØØØi}{nlrs}{uy}{tØthn}{ØeØØØ}"],
+    "äjä/v": [
+	"is{eØØØØi}{dlnrtØ}{aä}", "jä{dlnrtØ}{aä}",
+	"is{eØØØØi}n", "jän",
+	"is{eØØØØi}{i}{VØ}",
+	"is{eØØØØi}isi", "äjaisi",
+        "is{eØØØØi}{C}",
+	"is{eØØØØi}{nlrs}{uy}{tØthn}{ØeØØØ}"]
 }
