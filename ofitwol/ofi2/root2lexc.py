@@ -83,7 +83,7 @@ def main():
         weight_str = (' "weight: {}"'.format(r["WEIGHT"])
                       if r["WEIGHT"] else "" )
         entry_str = "% " + ide + "%;" if args.entries else ""
-        boundary = "" if args.entries else "{§}"
+        boundary = "" if args.entries else "{_}" ### formerly {§}
         for nxt in next_lst:
             if ("/" in ide) and (not "/" in nxt) and (nxt != "More"):
                 feat_str = entry_str + boundary + feature_str

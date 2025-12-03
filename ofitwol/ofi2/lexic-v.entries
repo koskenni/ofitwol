@@ -1933,6 +1933,7 @@ huu{td}el{eØØØei} /v
 huven{tnst}{aØaae} /v
 huven{tn}u /v
 huvit{tØ}el{eØØØei} /v
+huvit{tØ}{aØaae} /v
 huvit{tØ}u /v
 huvit{tØ}{aØaae} /v
 hu{pv}e{nt}{eØØØei} /v
@@ -2996,8 +2997,8 @@ kaaker{tr}el{eØØØei} /v
 kaakot{tØ}el{eØØØei} /v
 kaakot{tØ}{aØaae} /v
 kaala{ØsnØtt}{aØØØØ} /v
-kaalo /v
-kaal{iØ} /v
+! kaalo /v
+! kaal{iØ} /v
 kaamot{tØ}{aØaae} /v
 kaapais{eØØØØi} /v
 kaaparo{iØ} tse/v
@@ -5215,6 +5216,7 @@ kypsyt{tØ}{äØääe} /v
 kyrmist{äØääe} /v
 kyräil{eØØØei} /v
 kyrä{ØsnØtt}{äØØØØ} /v
+kyseen_alaist{aØaae} /v
 kysel{eØØØei} /v
 kysy /v
 kysyt{tØ}el{eØØØei} /v
@@ -5359,6 +5361,7 @@ käräh{td}{äØääe} /v
 käräjö{iØ} tse/v
 käräyt{tØ}el{eØØØei} /v
 käräyt{tØ}{äØääe} /v
+käsi_kirjoit{tØ}{aØaae} /v
 käsit{tØ}el{eØØØei} /v
 käsit{tØ}{äØääe} /v
 käsket{tØ}{äØääe} /v
@@ -5575,6 +5578,7 @@ laimen{tnst}{aØaae} /v
 laimen{tn}el{eØØØei} /v
 laimen{tn}u /v
 laime{nt}{eØØØei} /v
+laimin_l{yØ}ö /v
 laimistu /v
 laimistut{tØ}{aØaae} /v
 laimist{aØaae} /v
@@ -6758,6 +6762,7 @@ lämäh{td}{äØääe} /v
 lämäyt{tØ}{äØääe} /v
 läntisty /v
 länt{tØ}ä{ØsnØtt}{äØØØØ} /v
+läpi_kä{ØvØvØØ}{yØi} /v
 läpi_men{eØØØØi} /v
 läp äjä/v ! LÄPISTÄ
 läplät{tØ}{äØääe} /v
@@ -8079,6 +8084,7 @@ nujuut{tØ}{aØaae} /v
 nuju{ØsnØtt}{aØaØØ} /v
 nukah{td}el{eØØØei} /v
 nukah{td}{aØaae} /v
+nukahdut{tØ}{aØaae} /v
 nukit{tØ}{aØaae} /v
 nukkaan{tn}u /v
 nukkau{td}u /v
@@ -15612,6 +15618,7 @@ ylellisty /v
 ylen{tnst}{äØääe} /v
 ylen{tn}el{eØØØei} /v
 ylen{tn}y /v
+ylen_katso /v
 ylet{tØ}y /v
 ylet{tØ}{äØääe} /v
 ylevöit{tØ}{äØääe} /v

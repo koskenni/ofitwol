@@ -2077,6 +2077,7 @@ arvokkuus
 arvollisuuden
 arvollisuus
 arvon
+arvonlisä_vero
 arvonnan
 arvonta
 arvostelemattomuuden
@@ -4270,6 +4271,7 @@ edullisuuden
 edullisuus
 edun
 edus
+eduskunta
 edusta
 edustaja
 edustajan
@@ -7395,6 +7397,7 @@ hapene
 hapeneen
 hapenehen
 hapenen
+hapen_otto
 hapero
 haperon
 haperuuden
@@ -10452,6 +10455,7 @@ huutelun
 huuti
 huutin
 huuto
+huuto_kauppa
 huutolais
 huutolaisen
 huvi
@@ -12733,6 +12737,7 @@ jalkaimen
 jalkain
 jalkama
 jalkaman
+jalkapallo
 jalkautuksen
 jalkautus
 jalkavuuden
@@ -12895,6 +12900,7 @@ jauhatus
 jauhe
 jauheen
 jauhehen
+jauheliha
 jauhelma
 jauhelman
 jauhennuksen
@@ -14234,6 +14240,7 @@ kaama
 kaaman
 kaameuden
 kaameus
+kaamos
 kaani
 kaanin
 kaanon
@@ -14246,6 +14253,7 @@ kaape
 kaapeen
 kaapehen
 kaapeli
+kaapeli_televisio
 kaapelin
 kaapeloinnin
 kaapelointi
@@ -14324,6 +14332,8 @@ kaasin
 kaaso
 kaason
 kaasu
+kaasu_putki
+kaasu_suojelu
 kaasuksen
 kaasun
 kaasus
@@ -14346,21 +14356,25 @@ kaatimen
 kaatio
 kaation
 kaato
-kaatteri
-kaatterin
-kaattu
-kaattuva
-kaattuvan
+kaato_lupa
+kaato_paikka
+! kaatteri ! ??
+! kaatterin ! ??
+! kaattu ! ??
+! kaattuva ! ??
+! kaattuvan ! ??
 kaatuma
 kaatuman
 kaatumattomuuden
 kaatumattomuus
+kaatumis
 kaatumuksen
 kaatumus
-kaatun
+! kaatun ! ??
 kaaturi
 kaaturin
 kaava
+kaava_muutos
 kaavaaja
 kaavaajan
 kaavailu
@@ -14425,6 +14439,9 @@ kadotus
 kadrilji
 kadriljin
 kadun
+kadun_nimi
+kadun_rakennus
+kadun_varsi
 kaffee
 kaffeen
 kafferi
@@ -14528,12 +14545,17 @@ kahvee
 kahveen
 kahveli
 kahvelin
-kahveri
-kahverin
+! kahveri ! ??
+! kahverin ! ??
 kahvi
+kahvi_pöytä
+kahvin
+kahvin_keitto
+kahvin_suodatin
+kahvin_tuottaja
+kahvin_viljely
 kahvila
 kahvilan
-kahvin
 kahvio
 kahvion
 kahvittelu
@@ -14552,6 +14574,7 @@ kaiherruksen
 kaiherrus
 kaihi
 kaihi
+kaihi_leikkaus
 kaihin
 kaiho
 kaihon
@@ -14684,6 +14707,8 @@ kaivertelun
 kaivertimen
 kaivimen
 kaivin
+kaivin_kone
+kaivin_koneen
 kaivo
 kaivoksen
 kaivon
@@ -15385,6 +15410,8 @@ kansalaisuus
 kansallisuuden
 kansallisuus
 kansan
+kansan_eläke
+kansan_lääkintä
 kansi
 kansikko
 kansikon
@@ -15438,6 +15465,7 @@ kantillin
 kantimen
 kantin
 kanto
+kanto_kyky
 kantoisuuden
 kantoisuus
 kantoni
@@ -16213,6 +16241,8 @@ kasvatus
 kasvettuma
 kasvettuman
 kasvi
+kasvi_huone
+kasvi_huone_kaasu
 kasviksen
 kasvillisuuden
 kasvillisuus
@@ -24828,8 +24858,7 @@ lastauksen
 lastaus
 lastauttaja
 lastauttajan
-lasteksi
-lasteksin
+lasten
 lasti
 lastikan
 lastikka
@@ -28647,8 +28676,9 @@ maahiais
 maahiaisen
 maahis
 maahisen
-maailmanennätys
-maailmanmestaruus
+maailman_ennätys
+maailman_mestaruus
+maa_joukkue
 maakalais
 maakalaisen
 maakari
@@ -28686,6 +28716,7 @@ maammon
 maamo
 maamon
 maan
+maan_hankinta
 maanantai
 maanantain
 maanantain
@@ -28700,6 +28731,7 @@ maanituksen
 maanitus
 maannoksen
 maannos
+maan_siirto
 maaria
 maarian
 maaru
@@ -28708,6 +28740,7 @@ maasto
 maaston
 maasuuni
 maasuunin
+maatalous
 maatiais
 maatiaisen
 maaton
@@ -30279,19 +30312,20 @@ metsähis
 metsähisen
 metsäisyyden
 metsäisyys
-metsäksen
+! metsäksen ! ??
 metsällis
 metsällisen
 metsäläis
 metsäläisen
-metsälö
-metsälön
+metsälö ! yhtenä kokonaisuutena käsiteltävä metsäyksikkö
+metsälön ! yhtenä kokonaisuutena käsiteltävä metsäyksikkö
 metsän
-metsäs
+! metsäs ! ??
 metsästyksen
 metsästys
 metsästäjä
 metsästäjän
+metsä_talous
 metsättömyyden
 metsättömyys
 mettis
@@ -30362,6 +30396,7 @@ miekkosen
 mielekkyyden
 mielekkyys
 mielen
+mielenterveys
 mielettömyyden
 mielettömyys
 mielevyyden
@@ -30389,6 +30424,7 @@ mierolais
 mierolaisen
 mieron
 mies
+mies_suku
 miesmäisyyden
 miesmäisyys
 miete
@@ -31615,6 +31651,7 @@ murtelu
 murtelun
 murtimen
 murto
+murtomaa_
 murtuma
 murtuman
 murtumattomuuden
@@ -35149,6 +35186,7 @@ omaajan
 omais
 omaisen
 omaisuuden
+omaisuuden_hoito
 omaisuus
 omaksuja
 omaksujan
@@ -35422,6 +35460,7 @@ oppineiston
 oppineisuuden
 oppineisuus
 oppinut
+oppi_sopimus
 oppivaisuuden
 oppivaisuus
 opponentin
@@ -38560,6 +38599,7 @@ pientare
 pientareen
 pientarehen
 pientaren
+pien_teollisuuus
 pienuuden
 pienuus
 piepo
@@ -42758,6 +42798,7 @@ päätännön
 päätäntö
 päätö
 päätöksen
+päätöksen_teko
 päätös
 pödyn
 pöheikkö
@@ -43175,6 +43216,7 @@ rahakkuus
 rahallis
 rahallisen
 rahan
+rahan_jako
 rahas
 rahasen
 rahastaja
@@ -47586,20 +47628,21 @@ salamin
 salamoinnin
 salamointi
 salan
-salangaani
-salangaanin
+! salangaani ! ??
+! salangaanin ! ??
+salassapito
 salava
 salavan
 saldo
 saldon
 sale
-saleen
-salehen
-salepin
-saleppi
+! saleen ! ??
+! salehen ! ??
+! salepin ! ??
+! saleppi ! ??
 sali
-saliini
-saliinin
+! saliini ! ??
+! saliinin ! ??
 salin
 salinometri
 salinometrin
@@ -47610,7 +47653,7 @@ salisiinin
 salkin
 salkkari
 salkkarin
-salkki
+! salkki ! ??
 salkku
 salkullis
 salkullisen
@@ -50868,6 +50911,8 @@ soseen
 sosehen
 sosiaalisuuden
 sosiaalisuus
+sosiaali
+sosiaali_turva
 sosiaatio
 sosiaation
 sosialismi
@@ -51660,6 +51705,7 @@ sukulais
 sukulaisen
 sukulaisuuden
 sukulaisuus
+sukupuoli
 sula
 sulaimen
 sulain
@@ -52325,6 +52371,7 @@ suuntimo
 suuntimon
 suunturi
 suunturin
+suur
 suura
 suuran
 suure
@@ -52360,10 +52407,11 @@ suurentimen
 suurentuma
 suurentuman
 suuri
+suur_nopeus
 suuria
-suurian
-suurima
-suuriman
+! suurian
+suurima ! suurimo
+suuriman ! suurimo
 suurimo
 suurimon
 suuruisuuden
@@ -55435,6 +55483,7 @@ tieteilyn
 tietelijä
 tietelijän
 tieto
+tieto_hallinto
 tietois
 tietoisen
 tietoisuuden
@@ -55633,6 +55682,7 @@ tilhi
 tilhin
 tili
 tilin
+tilin_tarkastus
 tilittäjä
 tilittäjän
 tilittämättömyyden
@@ -57235,6 +57285,7 @@ tuloksen
 tuloksettomuuden
 tuloksettomuus
 tulon
+tulonsiirto
 tulos
 tulos
 tulosen
@@ -57878,6 +57929,7 @@ tutkielma
 tutkielman
 tutkija
 tutkijan
+tutkijankoulutus
 tutkimattomuuden
 tutkimattomuus
 tutkimuksen
@@ -58332,7 +58384,11 @@ työläis
 työläisen
 työläyden
 työläys
+työ_eläke
+työ_matka
+työ_voima
 työn
+työn_antaja
 työnnin
 työnnin
 työnnähdyksen
@@ -59101,7 +59157,8 @@ ultramariini
 ultramariinin
 ultramontanisti
 ultramontanistin
-ulun
+ultravioletti
+! ulun
 ulvahduksen
 ulvahdus
 ulvahtelu
@@ -60398,6 +60455,7 @@ valtio
 valtiollisuuden
 valtiollisuus
 valtion
+valtiovarain
 valtiuden
 valtius
 valttari
@@ -62755,9 +62813,10 @@ virittäjä
 virittäjän
 virityksen
 viritys
-viriö
-viriön
+viriö ! vire
+viriön ! vire
 virka
+virka_ikä
 virkahduksen
 virkahdus
 virkailija
@@ -63480,6 +63539,7 @@ vuorottelu
 vuorottelun
 vuorotuksen
 vuorotus
+vuorovaikutus
 vuorso
 vuorson
 vuosi
@@ -64046,6 +64106,7 @@ yhkinä
 yhkinän
 yhteellisyyden
 yhteellisyys
+yhteiskunta
 yhteisyyden
 yhteisyys
 yhteisö

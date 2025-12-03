@@ -108,7 +108,7 @@ for r in rdr:
     for nxt in next_lst:
         if mode == "M":
             if ("/" in ide) and (not "/" in nxt) and (ide != "/more"):
-                feat_str = "{§}" + feature_str
+                feat_str = "{_}" + feature_str ### Formerly {§}
             else:
                 feat_str = feature_str
         elif mode in {"G", "G+"}:

@@ -1,4 +1,20 @@
 LEXICON Adjectives
+
+! This file contains entries for adjectives of the ofi2 lexicon.
+
+! Each entry must consist only of symbols in the input (or
+! morphophonemic) alphabet with the exception that the intra word
+! boundary "{_}" is abbreviated as "_".
+
+! The only continuation classes used here are "/a", "/apos" and
+! "/asup".  Exceptional entries are not stored here, they are located
+! in lexic-special.entries, as well as some short entries which would
+! otherwise produce many homographic word forms as parts of compounds.
+
+! A Python program "entries2lex.py" converts this file into HFST LEXC
+! format suitable hfst-lexc program.  Thus, edit this file, not the
+! corresponding .lexc file.
+
 aakkoselli{ns}{eeØØ}{nØØØ} /a
 aallokkoi{ns}{eeØØ}{nØØØ} /a
 aallok{kØ}a{sØh}{aäØ} /a
@@ -711,6 +727,7 @@ edellis_vuoti{ns}{eeØØ}{nØØØ} /a
 edelli{ns}{eeØØ}{nØØØ} /a
 edellyttämät{tØ}ö{nm}{aäØ} /a
 edellä_mainit{tØØ}u /a
+edes_menn{uye}{tØthn}{ØeØØØ} /a
 edes_takai{ns}{eeØØ}{nØØØ} /a
 edes_vastuut{tØ}o{nm}{aäØ} /a
 edimmäi{ns}{eeØØ}{nØØØ} /a
@@ -864,6 +881,7 @@ ennätykselli{ns}{eeØØ}{nØØØ} /a
 ennätysmäi{ns}{eeØØ}{nØØØ} /a
 enok{kØ}a{sØh}{aäØ} /a
 enolai{ns}{eeØØ}{nØØØ} /a
+ensi_arvoi{ns}{eeØØ}{nØØØ} /a
 ensi_kertalai{ns}{eeØØ}{nØØØ} /a
 ensi_luokkai{ns}{eeØØ}{nØØØ} /a
 ensi_luokkalai{ns}{eeØØ}{nØØØ} /a
@@ -894,8 +912,10 @@ epä_demokraatti{ns}{eeØØ}{nØØØ} /a
 epä_edulli{ns}{eeØØ}{nØØØ} /a
 epä_eetti{ns}{eeØØ}{nØØØ} /a
 epä_inhimilli{ns}{eeØØ}{nØØØ} /a
+epä_itsek{kØ}ä{sØh}{aäØ} /a
 epä_kaupalli{ns}{eeØØ}{nØØØ} /a
 epä_kiitolli{ns}{eeØØ}{nØØØ} /a
+epä_kohtelia{sØh}{aäØ} /a
 epä_käytännölli{ns}{eeØØ}{nØØØ} /a
 epä_loogi{ns}{eeØØ}{nØØØ} /a
 epä_luuloi{ns}{eeØØ}{nØØØ} /a
@@ -914,6 +934,9 @@ epä_pätev{äØ} /a
 epä_realisti{ns}{eeØØ}{nØØØ} /a
 epä_rehelli{ns}{eeØØ}{nØØØ} /a
 epä_reilu /a
+epä_siveelli{ns}{eeØØ}{nØØØ} /a
+epä_sointui{ns}{eeØØ}{nØØØ} /a
+epä_sopui{ns}{eeØØ}{nØØØ} /a
 epä_sosiaali{ns}{eeØØ}{nØØØ} /a
 epä_sovinnai{ns}{eeØØ}{nØØØ} /a
 epä_suosit{tØØ}u /a
@@ -1274,6 +1297,7 @@ hajaantumat{tØ}o{nm}{aäØ} /a
 hajaantuvai{ns}{eeØØ}{nØØØ} /a
 hajai{ns}{eeØØ}{nØØØ} /a
 hajalli{ns}{eeØØ}{nØØØ} /a
+haja_mieli{ns}{eeØØ}{nØØØ} /a
 hajanai{ns}{eeØØ}{nØØØ} /a
 hajoamat{tØ}o{nm}{aäØ} /a
 hajottamat{tØ}o{nm}{aäØ} /a
@@ -1441,6 +1465,7 @@ hartsit{tØ}o{nm}{aäØ} /a
 hartsi{ns}{eeØØ}{nØØØ} /a
 harva_lukui{ns}{eeØØ}{nØØØ} /a
 harva_puhei{ns}{eeØØ}{nØØØ} /a
+harva_sanai{ns}{eeØØ}{nØØØ} /a
 harvahko /a
 harvai{ns}{eeØØ}{nØØØ} /a
 harvanlai{ns}{eeØØ}{nØØØ} /a
@@ -1545,6 +1570,7 @@ hellit{tØØ}y /a
 helluntai{ns}{eeØØ}{nØØØ} /a
 hell{äØeØ} /a
 hellä_varai{ns}{eeØØ}{nØØØ} /a
+hellä_mieli{ns}{eeØØ}{nØØØ} /a
 helmelli{ns}{eeØØ}{nØØØ} /a
 helmi_kui{ns}{eeØØ}{nØØØ} /a
 helmimäi{ns}{eeØØ}{nØØØ} /a
@@ -1558,6 +1584,7 @@ helponlai{ns}{eeØØ}{nØØØ} /a
 helppo_hoitoi{ns}{eeØØ}{nØØØ} /a
 helppo_käyttöi{ns}{eeØØ}{nØØØ} /a
 helppo_lukui{ns}{eeØØ}{nØØØ} /a
+helppo_tajui{ns}{eeØØ}{nØØØ} /a
 help{pØ}o /a
 helsinkiläi{ns}{eeØØ}{nØØØ} /a
 heltei{ns}{eeØØ}{nØØØ} /a
@@ -1667,6 +1694,7 @@ hiekoittamat{tØ}o{nm}{aäØ} /a
 hiene{äeØö} /a
 hieno /a
 hieno_jakoi{ns}{eeØØ}{nØØØ} /a
+hieno_tuntei{ns}{eeØØ}{nØØØ} /a
 hieno_varai{ns}{eeØØ}{nØØØ} /a
 hienohko /a
 hienoi{ns}{eeØØ}{nØØØ} /a
@@ -2167,6 +2195,7 @@ höystei{ns}{eeØØ}{nØØØ} /a
 höystöis{äØ} /a
 höytei{ns}{eeØØ}{nØØØ} /a
 höytyi{ns}{eeØØ}{nØØØ} /a
+ian_kaikki{ns}{eeØØ}{nØØØ} /a
 ideaali{ns}{eeØØ}{nØØØ} /a
 idealisti{ns}{eeØØ}{nØØØ} /a
 identti{ns}{eeØØ}{nØØØ} /a
@@ -2257,6 +2286,7 @@ ilmestymät{tØ}ö{nm}{aäØ} /a
 ilmestysmäi{ns}{eeØØ}{nØØØ} /a
 ilmet{tØØ}y /a
 ilmi_selv{äØeØ} /a
+ilmi_eläv{äØ} /a
 ilmi{ns}{eeØØ}{nØØØ} /a
 ilmiölli{ns}{eeØØ}{nØØØ} /a
 ilmiömäi{ns}{eeØØ}{nØØØ} /a
@@ -2437,10 +2467,12 @@ itse_keskei{ns}{eeØØ}{nØØØ} /a
 itse_ohjautuv{aØ} /a
 itse_oikeutet{tØØ}u /a
 itse_oppin{uye}{tØthn}{ØeØØØ} /a
+itse_pintai{ns}{eeØØ}{nØØØ} /a
 itse_päi{ns}{eeØØ}{nØØØ} /a
 itse_riittoi{ns}{eeØØ}{nØØØ} /a
 itse_tietoi{ns}{eeØØ}{nØØØ} /a
 itse_tuhoi{ns}{eeØØ}{nØØØ} /a
+itse_tyytyväi{ns}{eeØØ}{nØØØ} /a
 itse_valtai{ns}{eeØØ}{nØØØ} /a
 itse_varm{aoeØ} /a
 itsei{ns}{eeØØ}{nØØØ} /a
@@ -2477,6 +2509,7 @@ jalat{tØ}o{nm}{aäØ} /a
 jalavai{ns}{eeØØ}{nØØØ} /a
 jalkav{aØ} /a
 jalo /a
+jalo_mieli{ns}{eeØØ}{nØØØ} /a
 jalostamat{tØ}o{nm}{aäØ} /a
 jalostumat{tØ}o{nm}{aäØ} /a
 jalustalli{ns}{eeØØ}{nØØØ} /a
@@ -2789,6 +2822,7 @@ kahdeksan_vuotia{sØh}{aäØ} /a
 kahdenlai{ns}{eeØØ}{nØØØ} /a
 kahelo /a
 kahel{iieØ} /a
+kahjo /a
 kahleet{tØ}o{nm}{aäØ} /a
 kahlehtimat{tØ}o{nm}{aäØ} /a
 kahlitsemat{tØ}o{nm}{aäØ} /a
@@ -2802,10 +2836,28 @@ kaihoavai{ns}{eeØØ}{nØØØ} /a
 kaihois{aØ} /a
 kaihoi{ns}{eeØØ}{nØØØ} /a
 kaihok{kØ}a{sØh}{aäØ} /a
+kaiken_astei{ns}{eeØØ}{nØØØ} /a
+kaiken_hintai{ns}{eeØØ}{nØØØ} /a
+kaiken_ikäi{ns}{eeØØ}{nØØØ} /a
+kaiken_kaltai{ns}{eeØØ}{nØØØ} /a
 kaiken_karvai{ns}{eeØØ}{nØØØ} /a
 kaiken_kattav{aØ} /a
+kaiken_kokoi{ns}{eeØØ}{nØØØ} /a
+kaiken_kuntoi{ns}{eeØØ}{nØØØ} /a
+kaiken_maalai{ns}{eeØØ}{nØØØ} /a
+kaiken_muotoi{ns}{eeØØ}{nØØØ} /a
+kaiken_näköi{ns}{eeØØ}{nØØØ} /a
+kaiken_puoli{ns}{eeØØ}{nØØØ} /a
+kaiken_sortti{ns}{eeØØ}{nØØØ} /a
+kaiken_tasoi{ns}{eeØØ}{nØØØ} /a
+kaiken_tyyppi{ns}{eeØØ}{nØØØ} /a
+kaiken_väri{ns}{eeØØ}{nØØØ} /a
 kaikenlai{ns}{eeØØ}{nØØØ} /a
 kaikenmoi{ns}{eeØØ}{nØØØ} /a
+kaikin_puoli{ns}{eeØØ}{nØØØ} /a
+kaikki_näkev{äØ}
+kaikki_ruokai{ns}{eeØØ}{nØØØ} /a
+kaikki_tietäv{äØ} /a
 kaikkialli{ns}{eeØØ}{nØØØ} /a
 kaikkinai{ns}{eeØØ}{nØØØ} /a
 kaikuis{aØ} /a
@@ -2972,6 +3024,7 @@ kansallis_mieli{ns}{eeØØ}{nØØØ} /a
 kansallis_romantti{ns}{eeØØ}{nØØØ} /a
 kansallis_sosialisti{ns}{eeØØ}{nØØØ} /a
 kansalli{ns}{eeØØ}{nØØØ} /a
+kansan_omai{ns}{eeØØ}{nØØØ} /a
 kansan_taloudelli{ns}{eeØØ}{nØØØ} /a
 kansan_valtai{ns}{eeØØ}{nØØØ} /a
 kantaa_ottav{aØ} /a
@@ -3527,6 +3580,8 @@ kirjeelli{ns}{eeØØ}{nØØØ} /a
 kirjemäi{ns}{eeØØ}{nØØØ} /a
 kirjoittamat{tØ}o{nm}{aäØ} /a
 kirjoitukselli{ns}{eeØØ}{nØØØ} /a
+kirkas_silmäi{ns}{eeØØ}{nØØØ} /a
+kirkas_veti{ns}{eeØØ}{nØØØ} /a
 kirkkomai{ns}{eeØØ}{nØØØ} /a
 kirkolli{ns}{eeØØ}{nØØØ} /a
 kirkuv{aØ} /a
@@ -3615,6 +3670,7 @@ kohtauksittai{ns}{eeØØ}{nØØØ} /a
 kohteelli{ns}{eeØØ}{nØØØ} /a
 kohteet{tØ}o{nm}{aäØ} /a
 kohtelia{sØh}{aäØ} /a
+kohti_suor{aØeØ} /a
 kohtui{ns}{eeØØ}{nØØØ} /a
 kohtulai{ns}{eeØØ}{nØØØ} /a
 kohtuu_hintai{ns}{eeØØ}{nØØØ} /a
@@ -3693,6 +3749,7 @@ komea:kome{eØ} /a
 komentavai{ns}{eeØØ}{nØØØ} /a
 komeroi{ns}{eeØØ}{nØØØ} /a
 kome{aeØo} /a
+kolmi_kulmai{ns}{eeØØ}{nØØØ} /a
 kommensuraabel{iieØ} /a
 kommunisti{ns}{eeØØ}{nØØØ} /a
 kommutatiivi{ns}{eeØØ}{nØØØ} /a
@@ -4297,6 +4354,7 @@ kypärämäi{ns}{eeØØ}{nØØØ} /a
 kypärät{tØ}ö{nm}{aäØ} /a
 kyreneläi{ns}{eeØØ}{nØØØ} /a
 kyrilli{ns}{eeØØ}{nØØØ} /a
+kyrmy_niskai{ns}{eeØØ}{nØØØ} /a
 kyseelli{ns}{eeØØ}{nØØØ} /a
 kyseisen_lai{ns}{eeØØ}{nØØØ} /a
 kysei{ns}{eeØØ}{nØØØ} /a
@@ -5011,6 +5069,11 @@ luisu /a
 luisumat{tØ}o{nm}{aäØ} /a
 lui{ns}{eeØØ}{nØØØ} /a
 lujanlai{ns}{eeØØ}{nØØØ} /a
+luja_luontoi{ns}{eeØØ}{nØØØ} /a
+luja_ottei{ns}{eeØØ}{nØØØ} /a
+luja_rakentei{ns}{eeØØ}{nØØØ} /a
+luja_tahtoi{ns}{eeØØ}{nØØØ} /a
+luja_tekoi{ns}{eeØØ}{nØØØ} /a
 lujittamat{tØ}o{nm}{aäØ} /a
 lujui{ns}{eeØØ}{nØØØ} /a
 luj{aØeØ} /a
@@ -5122,10 +5185,12 @@ lyhyenlai{ns}{eeØØ}{nØØØ} /a
 lyhyi{ns}{eeØØ}{nØØØ} /a
 lyhykäi{ns}{eeØØ}{nØØØ} /a
 lyhyt_aikai{ns}{eeØØ}{nØØØ} /a
+lyhyt_hihai{ns}{eeØØ}{nØØØ} /a
 lyhyt_ikäi{ns}{eeØØ}{nØØØ} /a
 lyhyt_jäntei{ns}{eeØØ}{nØØØ} /a
 lyhyt_kestoi{ns}{eeØØ}{nØØØ} /a
 lyhyt_näköi{ns}{eeØØ}{nØØØ} /a
+lyhyt_varti{ns}{eeØØ}{nØØØ} /a
 lyhy{tØthn}{ØeØØØ} /a
 lyh{äØeØ} /a
 lyijyi{ns}{eeØØ}{nØØØ} /a
@@ -5634,6 +5699,7 @@ moni_ongelmai{ns}{eeØØ}{nØØØ} /a
 moni_osai{ns}{eeØØ}{nØØØ} /a
 moni_polvi{ns}{eeØØ}{nØØØ} /a
 moni_puoli{ns}{eeØØ}{nØØØ} /a
+moni_päiväi{ns}{eeØØ}{nØØØ} /a
 moni_tahoi{ns}{eeØØ}{nØØØ} /a
 moni_tasoi{ns}{eeØØ}{nØØØ} /a
 moni_ulottei{ns}{eeØØ}{nØØØ} /a
@@ -5763,7 +5829,10 @@ museaali{ns}{eeØØ}{nØØØ} /a
 musiikilli{ns}{eeØØ}{nØØØ} /a
 musikaali{ns}{eeØØ}{nØØØ} /a
 musliini{ns}{eeØØ}{nØØØ} /a
+musta_raitai{ns}{eeØØ}{nØØØ} /a
 musta_sukkai{ns}{eeØØ}{nØØØ} /a
+musta_tukkai{ns}{eeØØ}{nØØØ} /a
+musta_valkoi{ns}{eeØØ}{nØØØ} /a
 mustahko /a
 mustalai{ns}{eeØØ}{nØØØ} /a
 mustan_puhuv{aØ} /a
@@ -7085,6 +7154,7 @@ pitkä_kestoi{ns}{eeØØ}{nØØØ} /a
 pitkä_kynti{ns}{eeØØ}{nØØØ} /a
 pitkä_piimäi{ns}{eeØØ}{nØØØ} /a
 pitkä_tukkai{ns}{eeØØ}{nØØØ} /a
+pitkä_varti{ns}{eeØØ}{nØØØ} /a
 pitkäaikais_työt{tØ}ö{nm}{aäØ} /a
 pitkäaikai{ns}{eeØØ}{nØØØ} /a
 pitkähkö /a
@@ -7369,6 +7439,7 @@ pumpuli{ns}{eeØØ}{nØØØ} /a
 punaamat{tØ}o{nm}{aäØ} /a
 punai{ns}{eeØØ}{nØØØ} /a
 punak{kØØ}{ao} /a
+puna_poski{ns}{eeØØ}{nØØØ} /a
 punertav{aØ} /a
 punerv{aØ} /a
 punoksi{ns}{eeØØ}{nØØØ} /a
@@ -7376,6 +7447,7 @@ punomat{tØ}o{nm}{aäØ} /a
 puolalai{ns}{eeØØ}{nØØØ} /a
 puolei{ns}{eeØØ}{nØØØ} /a
 puolet{tØ}o{nm}{aäØ} /a
+puoli_päiväi{ns}{eeØØ}{nØØØ} /a
 puoli_sotilaalli{ns}{eeØØ}{nØØØ} /a
 puoli_vakinai{ns}{eeØØ}{nØØØ} /a
 puoli_valm{iiiie}{sØh}{ØiØiØ} /a
@@ -7449,6 +7521,7 @@ pyhälli{ns}{eeØØ}{nØØØ} /a
 pyhäselkäläi{ns}{eeØØ}{nØØØ} /a
 pyhät{tØ}ö{nm}{aäØ} /a
 pyhä{ns}{eeØØ}{nØØØ} /a
+pyhä_pukui{ns}{eeØØ}{nØØØ} /a
 pykei{ns}{eeØØ}{nØØØ} /a
 pykni{ns}{eeØØ}{nØØØ} /a
 pykälik{kØ}ä{sØh}{aäØ} /a
@@ -8332,6 +8405,7 @@ saman_suuntai{ns}{eeØØ}{nØØØ} /a
 saman_suurui{ns}{eeØØ}{nØØØ} /a
 saman_tapai{ns}{eeØØ}{nØØØ} /a
 saman_tasoi{ns}{eeØØ}{nØØØ} /a
+saman_tekev{äØ} /a
 samanlai{ns}{eeØØ}{nØØØ} /a
 samanmoi{ns}{eeØØ}{nØØØ} /a
 samarialai{ns}{eeØØ}{nØØØ} /a
@@ -9066,6 +9140,7 @@ suopamai{ns}{eeØØ}{nØØØ} /a
 suopea:suope{eØ} /a
 suopeahko /a
 suope{aeØo} /a
+suora_puhei{ns}{eeØØ}{nØØØ} /a
 suora_sanai{ns}{eeØØ}{nØØØ} /a
 suora_selkäi{ns}{eeØØ}{nØØØ} /a
 suora_sukai{ns}{eeØØ}{nØØØ} /a
@@ -9105,6 +9180,7 @@ surrealisti{ns}{eeØØ}{nØØØ} /a
 suruis{aØ} /a
 surui{ns}{eeØØ}{nØØØ} /a
 surulli{ns}{eeØØ}{nØØØ} /a
+suru_mieli{ns}{eeØØ}{nØØØ} /a
 surut{tØ}o{nm}{aäØ} /a
 survomat{tØ}o{nm}{aäØ} /a
 susimai{ns}{eeØØ}{nØØØ} /a
@@ -9197,6 +9273,7 @@ syndikalisti{ns}{eeØØ}{nØØØ} /a
 synergia_e{td}u /a
 synesteetti{ns}{eeØØ}{nØØØ} /a
 synke{äeØö} /a
+synkkä_mieli{ns}{eeØØ}{nØØØ} /a
 synkooppi{ns}{eeØØ}{nØØØ} /a
 synkretisti{ns}{eeØØ}{nØØØ} /a
 synkronisti{ns}{eeØØ}{nØØØ} /a
@@ -9204,6 +9281,7 @@ synkroni{ns}{eeØØ}{nØØØ} /a
 synk{kØ}{äØeØ} /a
 synkähkö /a
 synkänlai{ns}{eeØØ}{nØØØ} /a
+synkän_sini{ns}{eeØØ}{nØØØ} /a
 synnilli{ns}{eeØØ}{nØØØ} /a
 synnit{tØ}ö{nm}{aäØ} /a
 synnynnäi{ns}{eeØØ}{nØØØ} /a
@@ -9239,6 +9317,7 @@ syvähkö /a
 syvälli{ns}{eeØØ}{nØØØ} /a
 syvältäv{äØ} /a
 syvänlai{ns}{eeØØ}{nØØØ} /a
+syvä_miettei{ns}{eeØØ}{nØØØ} /a
 syyhyi{ns}{eeØØ}{nØØØ} /a
 syylli{ns}{eeØØ}{nØØØ} /a
 syyläi{ns}{eeØØ}{nØØØ} /a
@@ -9379,6 +9458,7 @@ taidolli{ns}{eeØØ}{nØØØ} /a
 taidot{tØ}o{nm}{aäØ} /a
 taikai{ns}{eeØØ}{nØØØ} /a
 taikamai{ns}{eeØØ}{nØØØ} /a
+taika_uskoi{ns}{eeØØ}{nØØØ} /a
 taike{aeØo} /a
 taikinai{ns}{eeØØ}{nØØØ} /a
 taikinamai{ns}{eeØØ}{nØØØ} /a
@@ -10502,8 +10582,10 @@ vaalea:vaale{eØ} /a
 vaaleahko /a
 vaalean_punai{ns}{eeØØ}{nØØØ} /a
 vaalean_ruske{aeØo} /a
+vaalean_sini{ns}{eeØØ}{nØØØ} /a
 vaalev{aØ} /a
 vaale{aeØo} /a
+vaalea_tukkai{ns}{eeØØ}{nØØØ} /a
 vaapper{aØoØ} /a
 vaappumat{tØ}o{nm}{aäØ} /a
 vaarai{ns}{eeØØ}{nØØØ} /a
@@ -10652,6 +10734,7 @@ valko_ihoi{ns}{eeØØ}{nØØØ} /a
 valkoi{ns}{eeØØ}{nØØØ} /a
 valko{ns}{eeØØ}{nØØØ} /a
 valk{kØ}o /a
+vallan_halui{ns}{eeØØ}{nØØØ} /a
 vallan_kumoukselli{ns}{eeØØ}{nØØØ} /a
 vallat{tØ}o{nm}{aäØ} /a
 vallimai{ns}{eeØØ}{nØØØ} /a
@@ -10813,6 +10896,7 @@ vasomotori{ns}{eeØØ}{nØØØ} /a
 vasta_hakoi{ns}{eeØØ}{nØØØ} /a
 vasta_vallankumoukselli{ns}{eeØØ}{nØØØ} /a
 vasta_vuoroi{ns}{eeØØ}{nØØØ} /a
+vasta_tull{uye}{tØthn}{ØeØØØ} /a
 vastaamat{tØ}o{nm}{aäØ} /a
 vastaan_ottavai{ns}{eeØØ}{nØØØ} /a
 vastaan_tulev{aØ} /a

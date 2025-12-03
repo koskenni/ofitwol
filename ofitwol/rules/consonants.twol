@@ -50,6 +50,12 @@
                     ! nä<>en nä<k>ee nä<k>i nä<k>isi nä<h>nee
 		    ! nä<h>köön nä<h>dään nä<h>ty
 
+{nrs}:r => :r VoØ _ ; 
+                    ! nuore<n>a nuor<n>a nuor<r>a
+
+{nrs}:s => :s VoØ ({nØØØ}:Ø) _ ;
+                    ! lapse<n>a las<n>a las<s>sa
+
 {pØ}:Ø|{pm}:m | {pv}:v <=> _ CLOSED ;
                     ! tup<p>i tup<>en saap<>as saap<p>aan
                     ! läm<m>in läm<p>imän läm<m>intä

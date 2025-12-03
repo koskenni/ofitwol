@@ -57,10 +57,10 @@ LEXICON NounGuess
 !         === Ø-i-e ===
 !
 < Cini
-  [ Syl12Vo Co*
+  [ [Syl12Vo|Vnuc] Co*
     [ b | c | d | f | g | h | j | k | l | (Co) m | p | q
     | [k|l|n|r] s                                 ! S07: kalsium
-    | š | v | w | x | z | ž                       ! S07: onyx
+    | š | v | w | x | z | ž                       ! S07: onyx haag
     ] {ØieØ}
   | Syl12Vo Co* [ r | t ] {ØieØ}                 ! S07: radar kredit
   | Syl12Vo ForgCoSeq e n  {ØieØ}                ! röntgen
@@ -244,7 +244,7 @@ LEXICON NounGuess
   ]
 > /s 50 SUKLAA ;
 !
-tenkka{§}po{oØ} /s ; ! TENKKAPOO
+tenkka{_}po{oØ} /s ; ! TENKKAPOO
 !
 !        === in-ime-im ===
 !
@@ -372,7 +372,7 @@ yö{ns}{eeØØ}{nØØØ} /s ; ! YÖNEN
 !
 
 !        === r-re-r(ta)-re(na)-r(ien)  ===
-
+aamu_valo /s ; ! *** to introduce _:_ into the alphabet
 ! ahav{aØo} /s ; ! AHAVA
 ! ahku /s ; ! AHKU
 ! ailu{tØthn}{ØeØØØ} /s ; ! AILUT
@@ -551,14 +551,14 @@ ai{kj}e{Øth}{ØeØeØ} /s ; ! AIJE
 ai{kØ}e{Øth}{ØeØeØ} /s ; ! AIE
 ajattar{aØo} /s ; ! AJATTARA
 ajat{tØ}ar{ØeØeØ} /s ; ! AJATAR
-aki{§}leij{ao} /s ; ! AKILEIJA
+aki{_}leij{ao} /s ; ! AKILEIJA
 algebr{aØo} /s ; ! ALGEBRA
 algebr{aØo} /s ; ! ALGEBRA 
 al{pv}{ieeeØ} /s ; ! ALPI
 ankeria{sØh}{ØaØØØ} /s ; ! ANKERIAS
-apo{§}teem{ao} /s ; ! APOTEEMA
+apo{_}teem{ao} /s ; ! APOTEEMA
 ap{pØ}{ieeeØ} /s ; ! APPI
-arti{§}sok{kØ}{aØ} /s ; ! ARTISOKKA
+arti{_}sok{kØ}{aØ} /s ; ! ARTISOKKA
 ar{kj}{ieeeØ} /s ; ! ARKI
 ar{pv}{ieeeØ} /s ; ! ARPI
 asiak{kØ}a{sØh}{aäØ} /s ; ! ASIAKAS
@@ -577,14 +577,14 @@ au{td}er{ØeØeØ} /s ; ! AUER
 au{tØ}er{ØeØeØ} /s ; ! AUTERE
 a{ij}{kØ}{ao} /s ; ! AIKA
 baccalaureu{ØkØkk}s{ØeØeØ} /s ; ! BACCALAUREUS
-bala{§}laik{kØ}{ao} /s ; ! BALALAIKKA
+bala{_}laik{kØ}{ao} /s ; ! BALALAIKKA
 bantu /s ; ! BANTU
 bide{eØ} /s ; ! BIDEE
 celsiu{ØkØkk}s{ØeØeØ} /s ; ! CELSIUS
 ces{ØieØ} /s ; ! CES
 cis{ØieØ} /s ; ! CIS
 des{ØieØ} /s ; ! DES
-dia{§}fragm{ao} /s ; ! DIAFRAGMA
+dia{_}fragm{ao} /s ; ! DIAFRAGMA
 dis{ØieØ} /s ; ! DIS
 duo /s ; ! DUO
 edelweiss{ØieØ} /s ; ! EDELWEISS
@@ -620,13 +620,13 @@ geniu{ØkØkk}s{ØeØeØ} /s ; ! GENIUS
 ges{ØieØ} /s ; ! GES
 gis{ØieØ} /s ; ! GIS
 guanako /s ; ! GUANAKO
-gutta{§}perk{kØ}{ao} /s ; ! GUTTAPERKKA
+gutta{_}perk{kØ}{ao} /s ; ! GUTTAPERKKA
 haah{td}{ieØeØ} /s ; ! HAAHTI 
 haa{kØk}s{ieeØeØ} /s ; ! HAAKSI
 haiven{ØeØØØ} /s ; ! HAIVEN
 hakku{uØ} /s ; ! HAKKUU
 halav{aØo} /s ; ! HALAVA
-halle{§}luj{aØ} /s ; ! HALLELUJA
+halle{_}luj{aØ} /s ; ! HALLELUJA
 halo{oØ} /s ; ! HALOO
 hamar{aØo} /s ; ! HAMARA
 hapene{ØhØtØØ}{ØeØeØ} /s ; ! HAPENE
@@ -644,7 +644,7 @@ hei{tds}{ieØeØ} /s ; ! HEISI
 hekum{aØo} /s ; ! HEKUMA
 henkilöy{ØØØØk}{stds}{ØeØeØ} /s ; ! HENKILÖYS
 hepene{ØhØtØØ}{ØeØeØ} /s ; ! HEPENE
-hepsan{§}keik{kØ}{ao} /s ; ! HEPSANKEIKKA
+hepsan{_}keik{kØ}{ao} /s ; ! HEPSANKEIKKA
 herskaap{iieØ} /s ; ! HERSKAAPI
 herskap{iieØ} /s ; ! HERSKAPI
 he{pv}en{ØeØeØ} /s ; ! HEVEN
@@ -673,7 +673,7 @@ huuhmar{ØeØeØ} /s ; ! HUUHMAR
 huumar{ØeØeØ} /s ; ! HUUMAR
 huut{iieØ} /s ; ! HUUTI
 hyl{kØ}e{Øth}{ØeØeØ} /s ; ! HYLE
-hyper{§}bol{aØ} /s ; ! HYPERBOLA
+hyper{_}bol{aØ} /s ; ! HYPERBOLA
 hypotenuus{aØ} /s ; ! HYPOTENUUSA
 hytyr{äØö} /s ; ! HYTYRÄ
 häiven{ØeØØØ} /s ; ! HÄIVEN
@@ -744,7 +744,7 @@ kappur{aØo} /s ; ! KAPPURA
 kappur{aØo} /s ; ! KAPPURA
 kapu /s ; ! KAPU
 kapul{aØo} /s ; ! KAPULA
-karakter{§}istik{ao} /s ; ! KARAKTERISTIKA
+karakter{_}istik{ao} /s ; ! KARAKTERISTIKA
 karism{aØo} /s ; ! KARISMA
 karonk{kØØ}{ao} /s ; ! KARONKKA
 kar{trs}{ieØeØ} /s ; ! KARSI
@@ -796,7 +796,7 @@ koje{Øth}{ØeØeØ} /s ; ! KOJE
 kolleh{td}{ao} /s ; ! KOLLEHTA
 kollo{sØh}{ØoØoØ} /s ; ! KOLLOS
 kolonn{aØ} /s ; ! KOLONNA
-komes{§}root{iieØ} /s ; ! KOMESROOTI
+komes{_}root{iieØ} /s ; ! KOMESROOTI
 komisariu{ØkØkk}s{ØeØeØ} /s ; ! KOMISARIUS
 korju{uØ} /s ; ! KORJUU
 kor{trs}{ieØeØ} /s ; ! KORSI
@@ -810,7 +810,7 @@ krypt{aØo} /s ; ! KRYPTA
 kula{ØkØkk}s{ØeØeØ} /s ; ! KULAS
 kultu /s ; ! KULTU
 kuollu{uye}{tØthn}{ØeØØØ} /s ! KUOLLUT - S77
-kuper{§}keik{kØ}{ao} /s ; ! KUPERKEIKKA
+kuper{_}keik{kØ}{ao} /s ; ! KUPERKEIKKA
 kupia{sØh}{ØaØØØ} /s ; ! KUPIAS
 kura{ØkØkk}s{ØeØeØ} /s ; ! KURAS
 kuroj{aØ} /s ; ! KUROJA
@@ -818,7 +818,7 @@ kurre /s ; ! KURRE
 kursoj{aØ} /s ; ! KURSOJA
 kus{ieØeØ} /s ; ! KUSI
 kuterviti{iieØ} /s ; ! KUTERVITI
-kutta{§}perk{kØ}{ao} /s ; ! KUTTAPERKKA
+kutta{_}perk{kØ}{ao} /s ; ! KUTTAPERKKA
 kuusam{aØo} /s ; ! KUUSAMA
 kuus{ieØeØ} /s ; ! KUUSI
 ku{pv}e{Øth}{ØeØeØ} /s ; ! KUVE
@@ -907,13 +907,13 @@ mangrove /s ; ! MANGROVE
 mantere{ØhØtØØ}{ØeØeØ} /s ; ! MANTERE
 man{tn}er{ØeØeØ} /s ; ! MANNER
 maraton{ØieØ} /s ; ! MARATON
-marha{§}min{tn}{ao} /s ; ! MARHAMINTA
+marha{_}min{tn}{ao} /s ; ! MARHAMINTA
 marink{kØ}{ao} /s ; ! MARINKKA
 masurk{kØØ}{ao} /s ; ! MASURKKA
 matal{aØo} /s ; ! MATALA
 ma{aØ} /s ; ! MAA
 meduus{aØo} /s ; ! MEDUUSA
-melo{§}draam{ao} /s ; ! MELODRAAMA
+melo{_}draam{ao} /s ; ! MELODRAAMA
 memento /s ; ! MEMENTO
 mer{ieØeØ} /s ; ! MERI - merta
 messia{sØh}{ØaØØØ} /s ; ! MESSIAS
@@ -993,20 +993,20 @@ paatere{ØhØtØØ}{ØeØeØ} /s ; ! PAATERE
 paa{tds}{ieØeØ} /s ; ! PAASI
 paa{td}er{ØeØeØ} /s ; ! PAADER
 paimen{ØeØØØ} /s ; ! PAIMEN
-palster{§}nak{kØ}{ao} /s ; ! PALSTERNAKKA
+palster{_}nak{kØ}{ao} /s ; ! PALSTERNAKKA
 paltto{oØ} /s ; ! PALTTOO
 palu{uØ} /s ; ! PALUU
 pal{kØ}a{sØh}{aäØ} /s ; ! PALAS
 pal{kØ}a{sØh}{ØaØØØ} /s ; ! PALAS
 panam{aØo} /s ; ! PANAMA
-pan{§}oraam{ao} /s ; ! PANORAAMA
-papu{§}kaij{ao} /s ; ! PAPUKAIJA
+pan{_}oraam{ao} /s ; ! PANORAAMA
+papu{_}kaij{ao} /s ; ! PAPUKAIJA
 paranoi{aØ} /s ; ! PARANOIA
-para{§}digm{ao} /s ; ! PARADIGMA
+para{_}digm{ao} /s ; ! PARADIGMA
 pars{iieØ} /s ; ! PARSI ??
 par{trs}{ieØeØ} /s ; ! PARSI
 pasi_lisko /s ; ! PASILISKO
-patri{§}ark{kØ}{ao} /s ; ! PARTIARKKA
+patri{_}ark{kØ}{ao} /s ; ! PARTIARKKA
 pau{k'}u /s ; ! PAUKU
 pehko /s ; ! PEHKO
 peh{kØ}o /s ; ! PEHKO
@@ -1053,15 +1053,15 @@ pon{tns}{ieØeØ} /s ; ! PONSI
 poppo{oØ} /s ; ! POPPOO
 postru{aØo} /s ; ! PORSTUA
 po{ij}{kØ}{aØ} /s ; ! POIKA
-praas{§}niek{kØ}{ao} /s ; ! PRAASNIEKKA
+praas{_}niek{kØ}{ao} /s ; ! PRAASNIEKKA
 preterit{iieØ} /s ; ! PRETERITI
-prima{§}donn{aØ} /s ; ! PRIMADONNA
+prima{_}donn{aØ} /s ; ! PRIMADONNA
 probleem{aØo} /s ; ! PROBLEEMA
 professorsk{aØo} /s ; ! PROFESSORSKA
 promille /s ; ! PROMILLE
 prostituoi{td}u /s ; ! PROSTITUOITU
-proto{§}koll{aØ} /s ; ! PROTOKOLLA
-proto{§}plasm{ao} /s ; ! PROTOPLASMA
+proto{_}koll{aØ} /s ; ! PROTOKOLLA
+proto{_}plasm{ao} /s ; ! PROTOPLASMA
 psyyke /s ; ! PSYYKE
 puol{ao} /s ; ! PUOLA (puolukka)
 puol{aØ} /s ; ! PUOLA
@@ -1090,17 +1090,17 @@ pöhköy{ØØØØk}{stds}{ØeØeØ} /s ; ! PÖHKÖYS
 pökö /s ; ! PÖKÖ
 pölhöy{ØØØØk}{stds}{ØeØeØ} /s ; ! PÖLHÖYS
 pö{öØ} /s ; ! PÖÖ
-raas{§}tup{aØ} /s ; ! RAASTUPA
+raas{_}tup{aØ} /s ; ! RAASTUPA
 raa{td}{iieØ} /s ; ! RAATI
 radiu{ØkØkk}s{ØeØeØ} /s ; ! RADIUS
 rah{kj}e{Øth}{ØeØeØ} /s ; ! RAHJE
 raion{ØieØ} /s ; ! RAION
-rans{§}tak{kØ}{ao} /s ; ! RANSTAKKA
+rans{_}tak{kØ}{ao} /s ; ! RANSTAKKA
 rat{iieØ} /s ; ! RATI
 rautia{sØh}{ØaØØØ} /s ; ! RAUTIAS
 ra{kØ}e{Øth}{ØeØeØ} /s ; ! RAE
 rei{tds}{ieØeØ} /s ; ! REISI
-res{§}kontr{aØ} /s ; ! RESKONTRA
+res{_}kontr{aØ} /s ; ! RESKONTRA
 ret{iieØ} /s ; ! RETI
 revohk{aØo} /s ; ! REVOHKA
 revy{yØ} /s ; ! REVYY
@@ -1193,7 +1193,7 @@ sunnunta{kØ}{iieØ} /s ; ! SUNNUNTAKI
 suntia{sØh}{ØaØØØ} /s ; ! SUNTIAS
 suol{ao} /s ; ! SUOLA
 suom{ieeeØ} /s ; ! SUOMI
-super{§}nov{aØ} /s ; ! SUPERNOVA
+super{_}nov{aØ} /s ; ! SUPERNOVA
 sutuur{aØo} /s ; ! SUTUURA
 suurim{ao} /s ; ! SUURIMA
 suur{ieØeØØ} /s ; ! SUURI
@@ -1246,7 +1246,7 @@ tem{pm}elle{Øth}{ØeØeØ} /s ; ! TEMMELLE
 tenuto /s ; ! TENUTO
 terä{ØkØkk}s{ØeØeØ} /s ; ! TERÄS
 terhen{ØeØØØ} /s ; ! TERHEN
-terra{§}kot{tØ}{aØ} /s ; ! TERRAKOTTA
+terra{_}kot{tØ}{aØ} /s ; ! TERRAKOTTA
 terve{ØØthn}{ØeØØØ} /s ; ! TERVE
 te{eØ} /s ; ! TEE
 te{kØ}i{mn}{ØeØeØ} /s ; ! TEIN

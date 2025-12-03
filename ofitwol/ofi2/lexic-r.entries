@@ -143,6 +143,7 @@ tuo+PRON:tuo
 tuo+PRON:toi 20 ! arkik
 tuo+PRON:tuon
 tuo+PRON:ton 20 ! arkik
+tuo+PRON:tuona
 tuo+PRON:tuota
 tuo+PRON:tota 20 ! arkik
 tuo+PRON:tuoksi
@@ -364,6 +365,10 @@ joku+PRON:joiltakuilta
 joku+PRON:joillekuille
 joku+PRON:joittakuitta
 joku+PRON:joinekuine
+
+jokunen+PRON:jokunen
+jokunen+PRON:jokusen
+jokunen+PRON:jokusia
 
 jokin+PRON:jokin
 jokin+PRON:jonkin
@@ -741,6 +746,7 @@ joka+PRON:joka
 joka+PRON:jonka
 joka+PRON:jona Clit
 joka+PRON:jota Clit
+joka+PRON:joksi Clit
 joka+PRON:jossa Clit
 joka+PRON:josta Clit
 joka+PRON:johon Clit
@@ -796,6 +802,8 @@ mikä+PRON:mitkä
 !mikä+PRON:mihinkä
 !mikä+PRON:mine
 !mikä+PRON:min
+mikä+PRON:mitäs
+mikä+PRON:minään
 
 !
 ! sekalaisia

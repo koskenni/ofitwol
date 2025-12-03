@@ -6,8 +6,8 @@ Root,"Nouns Verbs",,,,,,"This is where everything starts. Not all sub-lexicons n
 ,Special,,,,,,"Entries which are not allowed to occur as a second part of a compound word."
 ,Compounds,,,,,,"Established compounds which are given as full entries."
 ,FirstPart,,,,,,"Common first parts of compound nouns."
-More,Nouns,{§},,{§},20,,
-,Adjectives,{§},,{§},60,,
+More,Nouns,{_},,{_},20,,
+,Adjectives,{_},,{_},60,,
 ,!,,,,,,
 /s,s0123,,N,,,,"Normal noun entries"
 ,"! More",,,,20,,"Uncomment if dynamic compounding is desired"

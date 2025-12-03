@@ -1,11 +1,20 @@
 ! HYPHEN IN COMPOUNDS
 ! ===================
 
-{§}:§ => _ :Ø* Seg ;
-{§}:Ø /<=  _ :Ø* Seg ;
+{_}:%_ => _ :Ø* Seg ;
+      ! {_} boundary between parts of a compound word
+      ! corresponds to "-" between vowels and oterwise
+      ! to "_" in the generated base form but not at
+      ! the end of the stem
 
-{§}: - [ {§}:Ø | {§}:§ ] <=>            ! in effect {§}:- <=> ...
+{_}:Ø /<= _ :Ø* Seg ;
+
+! Word boundary as hyphen if and only if between identical vowels
+{_}:%- <=> 
      :a _ :a , :e _ :e , :i _ :i ,
      :o _ :o , :u _ :u , :y _ :y ,
      :ä _ :ä , :ö _ :ö ;
-               ! kuorma<->auto *kuorma<>auto henkilö<>auto
+      ! kuorma<->auto *kuorma<Ø>auto henkilö<_>auto
+      ! kuorma<_>tila *kuorma<->tila
+
+

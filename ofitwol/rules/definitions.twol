@@ -53,15 +53,15 @@ VVo = VV | VoS :i | :a :u | :e :u | :e :y | :i :e | :u :o |
       :y :ö | :ä ({ØvØvØØ}:Ø) :y ;
                     ! a diphthong
 
-VbV = :e :a | :e :ä | :i :a | :i :o | :i :ö |
+VbV = :e :a | :e :ä | :e (:Ø) :o | :e :ä | :i :a | :i :o | :i :ö |
       :o :a | :u :a | :u (:Ø) :e | :y (:Ø) :e ;
                     ! a non-diphthong, non-long double vowel
 
-EOW = .#. | {§}: | {CL}:Ø  ;
+EOW = .#. | {_}: | {CL}:Ø  ;
                     ! End of stem and inflection
 		    ! (but clitics may follow)
 
-BOW = .#. | {§}: ;
+BOW = .#. | {_}: ;
                     ! beginning of a stem either at the very beginning
 		    ! or as a second part of a compound
 

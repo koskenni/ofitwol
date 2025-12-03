@@ -433,6 +433,7 @@ edelle /po
 edellä /po
 edeltä /po
 edeltäkäsin /pc
+edellepäin /pc
 edeltäpäin /pc
 edeltävästi /pc
 edemmäksi /pc
@@ -442,6 +443,7 @@ edempänä /pc
 edempää /pc
 edes /pc
 edessä /po
+edessäpäin /pc
 edestä /po
 edistävästi /pc
 editse /po
@@ -489,6 +491,7 @@ eilisittäin /pc
 eittämättä /pc
 eittämättömästi /pc
 eklektisesti /pc
+ekologisesti /pc
 ekonomisesti /pc
 eksaktisesti /pc
 eksaktisti /pc
@@ -589,6 +592,7 @@ ensimmältä /pc
 ensinkään /pc
 ensinnä /pc
 ensin /pc
+ensisijaisesti /pc
 ensistään /pc
 enteellisesti /pc
 enteisesti /pc
@@ -615,6 +619,7 @@ epäilemättä /pc
 epäilemättömästi /pc
 epäröivästi /pc
 epätoivoisesti /pc
+epävirallisesti /pc
 epäävästi /pc
 erehdyttävästi /pc
 erehtymättömästi /pc
@@ -738,6 +743,7 @@ fyi /p
 fysikaalisesti /pc
 fysiologisesti /pc
 fyysillisesti /pc
+fyysisesti /pc
 galvaanisesti /pc
 genealogisesti /pc
 geneettisesti /pc
@@ -1026,6 +1032,7 @@ hengästyneesti /pc
 henkevästi /pc
 henkeäsalpaavasti /pc
 henkiin /pc
+henkilökohtaisesti /pc
 henkilöllisesti /pc
 henkimeneissä /pc
 henkimenossa /pc
@@ -1393,7 +1400,7 @@ hyvänlaisesti /pc
 hyvänne /pc
 hyvänsä /pc
 hyvästi /pc
-hyvään /po
+hyvään /pc
 hyytävästi /pc
 hyödyllisesti /pc
 hyödyttömästi /pc
@@ -1592,6 +1599,7 @@ ilmeisesti /pc
 ilmetysti /pc
 ilmiin /pc
 ilmi /pc
+ilmiselvästi /pc
 ilmisissä /po
 ilmissä /po
 ilmiömäisesti /pc
@@ -1693,6 +1701,8 @@ itsenäisesti /pc
 itsesiittoisesti /pc
 itsessä /ps
 itsestä /po
+itse_tiedottomasti /pc
+itse_itsetyytyväisesti /pc
 ivallisesti /pc
 iäisesti /pc
 iäksi /pc
@@ -1739,6 +1749,7 @@ jestas /pc
 jesuiittamaisesti /pc
 jetsulleen /pc
 johan /pc
+johdonmukaisesti /pc
 johdosta /pc
 johtavasti /pc
 joinkin /pc
@@ -1761,8 +1772,10 @@ joskin /pc
 josko /pc
 joskus /pc
 jos /p
+joskaan /p
 jospa /pc
 jota /pc
+jotakuinkin /p
 jotenka /pc
 jotenkin /pc
 jotensakin /pc
@@ -2262,6 +2275,7 @@ kenkusti /pc
 kenolla /ps
 kenoon /pc
 kenossa /pc
+kenties /p
 kepeästi /pc
 keppelästi /pc
 kepperästi /pc
@@ -2756,6 +2770,7 @@ kovin /pc
 kraak /pc
 kraa /pc
 kriitillisesti /pc
+kriittisesti /pc
 kristillisesti /pc
 kristosentrisesti /pc
 kritiikittömästi /pc
@@ -2790,7 +2805,7 @@ kuiville /po
 kuiviltaan /pc
 kujeellisesti /pc
 kujeilevasti /pc
-kukali /pc
+! kukali /pc ! ??
 kukkelikuu /pc
 kukkokiekuu /pc
 kukkomaisesti /pc
@@ -2866,6 +2881,7 @@ kumouksellisesti /pc
 kumpaannekin /pc
 kumpaanne /pc
 kumulatiivisesti /pc
+kunhan /p
 kuningasmaisesti /pc
 kuninkaallisesti /pc
 kuni /pc
@@ -2956,8 +2972,9 @@ kutsumattomasti /pc
 kutsuvasti /pc
 kutti /pc
 kuudesti /pc
-kuukalla /po
-kuukalle /po
+! kuukalla /po ! ??
+! kuukalle /po ! ??
+kuukausittain /pc
 kuulaasti /pc
 kuulakkaasti /pc
 kuuleasti /pc
@@ -3655,7 +3672,7 @@ lähentävästi /pc
 lähes /pc
 lähestulkoonkaan /pc
 lähettyville /po
-lähettyvillä /ps
+lähettyvillä /po
 lähettyviltä /po
 lähettäin /pc
 lähetyksin /pc
@@ -4051,6 +4068,7 @@ moniahtaalta /pc
 monianne /pc
 monikollisesti /pc
 moninaisesti /pc
+moninkertaisesti /pc
 monistellen /pc
 monistisesti /pc
 monisäikeisesti /pc
@@ -4200,6 +4218,7 @@ myöntävästi /pc
 myöskin /pc
 myöskään /pc
 myös /pc
+myöten /pc
 myötyriksi /pc
 myötyrinä /ps
 myötäisesti /pc
@@ -4224,6 +4243,7 @@ määräisesti /pc
 määrällisesti /pc
 määrältä /pc
 määräseltään /pc
+määrätietoisesti /pc
 määrättömästi /pc
 määrääväisesti /pc
 määräävästi /pc
@@ -4449,6 +4469,7 @@ nykyisille /ps
 nykyisillä /ps
 nykyisin /pc
 nykyisittäin /pc
+nykyä /pc ! tätä nykyä
 nykyjään /pc
 nykyänsä /pc
 nykyään /pc
@@ -4460,7 +4481,7 @@ nyrpeissä /ps
 nyrpeästi /pc
 nyrpällä /po
 nyrttyyn /pc
-nyt /p
+nyt /pc
 nyttemmin /pc
 nytten /pc
 näemmä /pc
@@ -4751,6 +4772,7 @@ paikalla /po
 paikalle /ps
 paikallisesti /pc
 paikalta /po
+paikkeilla /pc
 paikkulaisesti /pc
 paikoilla /ps
 paikoille /ps
@@ -4779,6 +4801,7 @@ painuksista /pc
 pai /p
 paisuksiin /pc
 paisuksissa /pc
+paita_hihasilla /po
 paitasilla /ps
 paitasille /ps
 pait /pc
@@ -4789,7 +4812,7 @@ pakahduksissa /po
 pakanallisesti /pc
 pakanasti /pc
 paki /pc
-pakkoliikkeisesti /pc
+pakko_liikkeisesti /pc
 pakoisesti /pc
 pakolla /pc
 pakollisesti /pc
@@ -4866,6 +4889,7 @@ parhaimmilla /ps
 parhaimmille /ps
 parhaimmin /pc
 parhain /pc
+parhaiten /pc
 parii{nØ} /po
 pariisilaisesti /pc
 pariisilaisittain /pc
@@ -5547,6 +5571,8 @@ pääsemättömissä /pc
 pääsemättömästi /pc
 päässä /pc
 päästä /pc
+pää_asiallisesti /pc
+pää_sääntöisesti /pc
 päätteeksi /pc
 päättymättömästi /pc
 päättäjäisiksi /pc
@@ -5994,14 +6020,16 @@ salakähmää /pc
 salamyhkäisesti /pc
 salamyhkää /pc
 salassa /pc
+salassa_pito /pc
 salasta /pc
 salolla /po
 salolle /po
 salpauksiin /pc
 salpauksissa /pc
-samaanne /pc
+samaanne /pc ! samaan suuntaan
 samalla /pc
-samanne /pc
+samanaikaisesti /pc
+samanne /pc ! samaan suuntaan
 samassa /pc
 sameasti /pc
 sammuksiin /pc
@@ -6011,6 +6039,7 @@ samperi /pc
 sanaisesti /pc
 sanalleen /pc
 sanallisesti /pc
+sananmukaisesti /pc
 sananparrellisesti /pc
 sanasilla /pc
 sanasille /pc
@@ -6214,6 +6243,7 @@ sillänsä /pc
 sillä /pc
 sillään /pc
 silmin /pc
+silmin_nähtävästi /pc
 silmisikana /pc
 silmittömästi /pc
 silmityksin /pc
@@ -6300,6 +6330,7 @@ sisätyksin /pc
 sisätysten /pc
 sisää{nØ} /po
 siteeksi /pc
+siten /pc
 sitkaan /pc
 sitkeästi /pc
 sitkistävästi /pc
@@ -6326,6 +6357,7 @@ sivistävästi /pc
 sivuitse /po
 sivuittain /pc
 sivukkain /pc
+sivumennen /pc
 sivummaksi /pc
 sivummalla /pc
 sivummalle /pc
@@ -6850,6 +6882,7 @@ takaalta /pc
 takaa /po
 takaisesti /pc
 takaisin /pc
+takaisin_päin /pc
 takalukossa /pc
 takana /po
 takanta /po
@@ -7006,6 +7039,7 @@ tekeillä /pc
 tekevästi /pc
 tekijöittäin /pc
 teknillisesti /pc
+teknisesti /pc
 tekoisesti /pc
 tektonisesti /pc
 teleologisesti /pc
@@ -7109,6 +7143,7 @@ tik /p
 tilaan /pc
 tilalla /pc
 tilalle /pc
+tilapäisesti /pc
 tilassa /pc
 tilastollisesti /pc
 tilavasti /pc
@@ -7163,6 +7198,7 @@ tohjoksi /pc
 tohjona /pc
 tohkeissa /po
 toimeen /pc
+toimeentulo /pc
 toimekkaasti /pc
 toimeksi /pc
 toimeliaasti /pc
@@ -7407,6 +7443,7 @@ tupsumaisesti /pc
 turhaan /pc
 turhamaisesti /pc
 turhan /pc
+turhan_päiten /pc
 turkasesti /pc
 turmelevasti /pc
 turmiokkaasti /pc
@@ -7583,6 +7620,7 @@ täsmälleen /pc
 täsmällisesti /pc
 tässä /pc
 tästä /pc
+täten /pc
 tätimäisesti /pc
 täydelleen /pc
 täydellisesti /pc
@@ -7766,6 +7804,7 @@ urheilullisesti /pc
 urhokkaasti /pc
 urhoollisesti /pc
 useasti /pc
+useimmiten /pc
 useimmittain /pc
 usein /pc
 ush /p
@@ -7915,6 +7954,7 @@ valtaa{nØ} /po
 valtaavasti /pc
 valtaisasti /pc
 valtaisesti /pc
+valtakunnallisesti /pc
 valtavasti /pc
 valtiaasti /pc
 valtioittain /pc
@@ -8037,6 +8077,7 @@ vastatusten /pc
 vasten /pc
 vastikkeellisesti /pc
 vastikkeettomasti /pc
+vast_ikään /pc
 vastoin /pc
 vastuksellisesti /pc
 vastuksiin /pc
@@ -8181,6 +8222,7 @@ viidesti /pc
 viihdykkäästi /pc
 viihdyttävästi /pc
 viihtyisästi /pc
+viikon_loppuisin /pc
 viikoittain /pc
 viikommaksi /pc
 viikommalta /pc
@@ -8384,6 +8426,7 @@ vähintäkään /pc
 vähintään /pc
 vähissä /pc
 vähitellen /pc
+vähiten /pc
 vähittäin /pc
 vähittäisesti /pc
 vähäisen /pc
@@ -8479,6 +8522,7 @@ yhhyhhyh /pc
 yhhyh /pc
 yhteen /pc
 yhteensä /pc
+yhteiskunnallisesti /pc
 yhteisesti /pc
 yhteisneuvoin /pc
 yhteistuumin /pc
@@ -8489,6 +8533,8 @@ yhtenään /pc
 yhtikän /pc
 yhtikäs /pc
 yhtikään /pc
+yhtäkkiä /pc
+yht'äkkiä /pc
 yhtäkkisesti /pc
 yhtäläiseen /pc
 yhtäläisesti /pc
@@ -8510,10 +8556,13 @@ yksikäsitteisesti /pc
 yksiköittäin /pc
 yksilöittäin /pc
 yksilöllisesti /pc
+yksimielisesti /pc
 yksin /pc
+yksinkertaisesti /pc
 yksinäisesti /pc
 yksinä /ps
 yksioikoisesti /pc
+yksiselitteisesti /pc
 yksissä /pc
 yksistään /pc
 yksitellen /pc
@@ -8521,6 +8570,7 @@ yksitoikkoisesti /pc
 yksittäin /pc
 yksittäisesti /pc
 yksityisesti /pc
+yksityiskohtaisesti /pc
 ykskaks /pc
 yleensä /pc
 yleiseen /pc
@@ -8576,6 +8626,7 @@ ylisummaan /pc
 ylitse /po
 ylitsevuotavasti /pc
 ylitte /pc ! dialect
+ylivoimaisesti /pc
 ylivuotisesti /pc
 ylle /po
 yllyttävästi /pc
@@ -8593,6 +8644,7 @@ yltä /po
 ylväkkäästi /pc
 ylväästi /pc
 ylätse /pc
+ylä_puolella /po
 yläälle /pc
 yläällä /pc
 yläältä /pc

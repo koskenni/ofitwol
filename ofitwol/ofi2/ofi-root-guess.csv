@@ -1,8 +1,8 @@
 ID,NEXT,MPHON,FEAT,BASEF,WEIGHT,COMMENT
 Root,"FirstPart NounGuess AdjGuess VerbGuess",,,,,"This root lexicon uses the guess pattern lexicons but it provides for no compounding. The results are guessed lexicon entries."
 ,"Special Particles Pronouns",,,,,
-More,"NounGuess Nouns",{§},,{§},10,
-,"! AdjGuess",{§},,{§},50,
+More,"NounGuess Nouns",{_},,{_},10,
+,"! AdjGuess",{_},,{_},50,
 ,!,,,,,
 /s,s0123,,N,,,"Normal noun entries"
 ,,,,,,

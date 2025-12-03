@@ -11,10 +11,10 @@ Root,Nouns,,,,,
 ,NounGuess,,,,60,"Guess pattern lexicon for nouns"
 ,AdjGuess,,,,80,
 ,VerbGuess,,,,60,
-More,Nouns,{§},,_,20,
-,Adjectives,{§},,_,40,
-,NounGuess,{§},,_,60,
-,"! AdjGuess",{§},,_,50,
+More,Nouns,{_},,_,20,
+,Adjectives,{_},,_,40,
+,NounGuess,{_},,_,60,
+,"! AdjGuess",{_},,_,50,
 ,!,,,,,
 /s,s0123,,N,,,"Normal noun entries"
 ,More,,,,20,"Uncomment if dynamic compounding is desired"

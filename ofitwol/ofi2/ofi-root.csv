@@ -2,8 +2,8 @@ ID,NEXT,MPHON,FEAT,BASEF,WEIGHT,COMMENT
 Root,"Nouns Verbs Adjectives Pronouns",,,,,"This is where everything starts. Not all sub-lexicons need to be present when compiled with hfst-lexc. This root lexicon is for using the explicit noun, adjective and verb lexicons.  No guessing is intended nor active compounding. The lookup produces morphophonemic forms of the base forms of retrieved lexemes."
 ,"Numerals Particles Special Compounds",,,,,
 ,FirstPart,,,,,
-/more,Nouns,{§},,{§},20,
-,Adjectives,{§},,{§},40,
+/more,Nouns,{_},,{_},20,
+,Adjectives,{_},,{_},40,
 ,!,,,,,
 /s,s0123,,N,,,"Normal noun entries"
 ,,,,,,

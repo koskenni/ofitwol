@@ -4,12 +4,16 @@ Root,Pronouns,,,,,
 ,Numerals,,,,,
 ,Particles,,,,,
 ,Special,,,,,
+,Nouns,,,,,"for testing"
+,Adjectives,,,,,"for testing"
+,Verbs,,,,,"for testing"
 ,FirstPart,,,,,"A set of common first parts in compounds"
 ,NounGuess,,,,60,"Guess pattern lexicon for nouns"
 ,AdjGuess,,,,80,"Guess pattern lexicon for adjectives"
 ,VerbGuess,,,,60,"Guess pattern lexicon for verbs"
-More,NounGuess,{§},,_,60,
-,"! AdjGuess",{§},,_,50,
+More,NounGuess,{_},,{_},20,
+More,"! AdjGuess",{_},,_,50,
+More,Nouns,{_},,{_},,"for testing"
 ,!,,,,,
 /s,s0123,,N,,,"Normal noun entries"
 ,"! More",,,,20,"Uncomment if dynamic compounding is desired"

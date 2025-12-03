@@ -4,8 +4,7 @@
 !
 ! HYPHEN IN COMPOUNDS
 !
-!!!{§}: - {§}:Ø <=>                       ! in effect: {§}:- <=> ...
-{§}:%- <=>
+{_}:%- <=>
     :a _ :a , :e _ :e , :i _ :i ,
     :o _ :o , :u _ :u , :y _ :y ,
     :ä _ :ä , :ö _ :ö ;
@@ -84,15 +83,6 @@
                     ! onneto<>n onneto<>nta
 {ØiØ}:i => _ :n VoØ [ {nrs}: | :t | EOW ] ;
                     ! onneto<i>n onneto<i>nta onneto<i>nna
-
-
-                              ! nuore<n>a nuor<n>a
-{nrs}:r => :r VoØ _ ; 
-                              ! nuor<r>a
-
-
-{nrs}:s => :s VoØ ({nØØØ}:Ø) _ ;
-                              ! las<s>sa
 
 
                               ! korke<>e tieno<>o vapa<>a

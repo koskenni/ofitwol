@@ -22,8 +22,11 @@ LEXE=$(LEX) lexic-r.lexc lexic-firstpart.lexc endings.lexc
 #LEXG=guess-s.lexc guess-a.lexc lexic-r.lexc
 LEXG=guess-s.lexc guess-a.lexc guess-v.lexc \
       lexic-firstpart.lexc endings.lexc \
-      lexic-r.lexc lexic-special.lexc lexic-n.lexc lexic-p.lexc \
-      # lexic-a.lexc lexic-v.lexc lexic-s.lexc
+      lexic-r.lexc lexic-special.lexc lexic-n.lexc lexic-p.lexc
+# Append the following, if you want to include all noun, adjective and
+# verb entries in addition to the guessing patterns
+
+#     lexic-a.lexc lexic-v.lexc lexic-s.lexc
 
 ANALYSES=$(ID)-corpus-$(MODE).big.analyses
 

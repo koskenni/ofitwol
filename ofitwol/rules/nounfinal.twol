@@ -50,18 +50,18 @@
 
 ! STOP
 
-{ØeØØØ}:e /<= _ :Ø* [:t e | {Øt}: | {ij}: | i {nm}: | .#.|{§}:|{CL}:] ;
+{ØeØØØ}:e /<= _ :Ø* [:t e | {Øt}: | {ij}: | i {nm}: | EOW] ;
     ! ahven<e>n ahven<e>na terve<e>n terve<e>nä terveh<e>nä
     ! airu<e>n  airu<e>na
-{ØeØØØ}:Ø =>  _ [:t e | {Øt}: | {ij}: | i {nm}: | .#.|{§}:|{CL}:] ,
+{ØeØØØ}:Ø =>  _ [:t e | {Øt}: | {ij}: | i {nm}: | EOW] ,
     ! ahven<> ahven<>ta airut<> airut<>ta terve<> tervet<>tä
     ! ahven<>ia terve<>intä terve<>immille
               VoS (CoØ) [:s|:n] _ {nrs}: ;
     ! ahven<>na terven<>nä
 
-{aäØ}:a => [:a | :o | :u] [\{§}:]* _ ;
+{aäØ}:a => [:a | :o | :u] [\{_}:]* _ ;
     ! alimp<a>na
-{aäØ}:ä /<= [:a | :o | :u] [\{§}:]* _ ;
+{aäØ}:ä /<= [:a | :o | :u] [\{_}:]* _ ;
     ! ylimp<ä>nä
 {aäØ}:Ø <=>
     _ ({nØØØ}:Ø) [{ij}: | i {nm}:] ,
@@ -94,9 +94,9 @@
     ! muutam<a>n saappa<a>n viera<a>n vierah<a>n kevä<ä>n
     ! pahimm<a>n lämpim<ä>n onnettom<a>n myymättöm<ä>n
 
-{aäoöØ}:a | {aäoöØ}:o => [:a|:o|:u] [\{§}:]* _ ;
+{aäoöØ}:a | {aäoöØ}:o => [:a|:o|:u] [\{_}:]* _ ;
     ! kulkij<a> kulkij<o>ita
-{aäoöØ}:ä | {aäoöØ}:ö /<= [:a|:o|:u] [\{§}:]* _ ;
+{aäoöØ}:ä | {aäoöØ}:ö /<= [:a|:o|:u] [\{_}:]* _ ;
     ! menij<ä> kävij<ö>itä
 {aäoöØ}:Ø <=>
         [[:a|:ä].m |:o|:ö|:u|:y] j _ {ij}: ,
@@ -111,21 +111,21 @@
 {yØi}:i <=> :v _ j {aäoöØ}: ;
     ! käv<i>jä käv<i>jöitä
 
-{iaäØ}:a => [:a|:o|:u] [\{§}:]* _ ;
+{iaäØ}:a => [:a|:o|:u] [\{_}:]* _ ;
     ! alemp<a>na
-{iaäØ}:ä /<= [:a|:o|:u] [\{§}:]* _ ;
+{iaäØ}:ä /<= [:a|:o|:u] [\{_}:]* _ ;
     ! ylemp<ä>nä
 {iaäØ}:Ø <=> _ {ij}: | {Øt}:t ;
     ! alemm<>issa alemp<>ien ylemp<>iin
 {iaäØ}:i <=> _ EOW ;
     ! suuremp<i>
 
-{eeØØ}:Ø => _ {nØØØ}:Ø [{ij}: | i {nm}: | :t e | {Øt}: | {nrs}: | {§}:] ;
-{eeØØ}:e /<= _ {nØØØ}:Ø [{ij}: | :t e | {Øt}: | {§}:] ;
+{eeØØ}:Ø => _ {nØØØ}:Ø [{ij}: | i {nm}: | :t e | {Øt}: | {nrs}: | {_}:] ;
+{eeØØ}:e /<= _ {nØØØ}:Ø [{ij}: | :t e | {Øt}: | {_}:] ;
     ! hevon<e>n hevos<e>n hevos<>ta hevos<e>na hevos<>sa hevos<>ia
     ! hevos<>mies
 
-{ØeØeØ}:Ø <=> _ :Ø* [.#. | {§}: | {CL}: | {ij}: | i {nm}: | t e | {Øt}:t] ;
+{ØeØeØ}:Ø <=> _ :Ø* [EOW | {ij}: | i {nm}: | t e | {Øt}:t] ;
     ! vastaus<> vastauks<e>n vastaus<>ta vastauks<e>na vastauks<>ia
     ! uistin<> uistim<e>n uistin<>ta uistim<>ia
     ! askel<> askel<e>n askel<>ta askel<e>na askel<>ia
@@ -201,12 +201,12 @@
     ! kuoll<e>ita
 {uye}:u | {uye}:y <=> _ [:t|:n] ;
     ! kuoll<u>t kuoll<u>tta kuoll<u>nna
-{uye}:u => [:a|:o|:u] [\{§}:]* _ ;
+{uye}:u => [:a|:o|:u] [\{_}:]* _ ;
     ! kuoll<u>tta
-{uye}:y /<= [:a|:o|:u] [\{§}:]* _ ;
+{uye}:y /<= [:a|:o|:u] [\{_}:]* _ ;
     ! menn<y>t
 
-{ØuØuØ}:Ø | {ØoØoØ}:Ø <=> _ :Ø* [:t e|{Øt}:|{ij}:|EOW] ;
+{ØuØuØ}:Ø | {ØoØoØ}:Ø <=> _ :Ø* [:t e | {Øt}: | {ij}: | EOW] ;
     ! kiiru<> kiiru<u>n kiirut<>ta kiiru<u>na kiiruh<u>na
     ! uros<> uro<o>n uros<>ta uro<o>na uros<>ten uro<>ita
 

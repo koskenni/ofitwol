@@ -432,8 +432,9 @@ verk{kØ}a{sØh}{aäØ} /a ; ! VERKAS
 !
 hyvä+A+POS:hyv{äØ} s0123 ; ! HYVÄ
 hyvä+A+CMP:parem{pm}{iaäØ} s012 ; ! HYVÄ PAREMPI
-hyvä+A+SUP:para{sØh}{aäØ} s03 ; ! HYVÄ PARAS
+hyvä+A+SUP:para{sØh}{aäØ} s0 ; ! HYVÄ PARAS
 hyvä+A+SUP:parha{sØh}{aäØ} s12 ; ! HYVÄ PARAS
+hyvä+A+SUP:para{sØh}{aäØ} s3 ; ! HYVÄ PARAS
 
 pitkä+A+POS:pitk{äØeØ} s0123 ;
 pitkä+A+CMP:pitem{pm}{iaäØ} s012 ;

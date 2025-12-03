@@ -59,6 +59,13 @@ def main():
     import json
     suffix_file = open(args.suffixes, "r")
     suffix_lst_dic = json.load(suffix_file)
+    suffix_file.close()
+    #
+    # suffix_list_dic now contains a mapping from entry types (e.g. "/s"
+    # to a list of morphophonemic strings to be appended to the stem
+    # in order to get the morphophonemic representations of the set of
+    # principal forms of that stem.  E.g.:
+    #
     #suffix_lst_dic = {
     #    "/s": ["", "n", "{nrs}{aä}", "{ij}{Øt}{aä}"],
     #    "/v": ["{dlnrtØ}{aä}", "n", "{i}{VØ}", "isi",
@@ -117,7 +124,7 @@ def main():
             i = int(line)
             if (i > 0) and (i <= len(stem_cont_weight_lst)):
                 stem, cont, weight = stem_cont_weight_lst[i-1]
-                print(stem, cont, "+++\n")
+                print(stem, cont, "\n")
             else:
                 print("--rejected ({})\n".format(i))
         else:

@@ -1,4 +1,19 @@
 LEXICON Special
+
+! This file contains entries of some exceptional nouns, adjectives,
+! adverbs and particles which have some exceptional properties.  These
+! entries may have a non-standard inflectio, or they might not follow
+! the compounding rules of other words.
+
+! Each entry must consist only of symbols in the input (or
+! morphophonemic) alphabet with the exception that the intra word
+! boundary "{_}" is abbreviated as "_".
+
+! A Python program entries2lexc converts this file into HFST LEXC
+! format suitable hfst-lexc program.  Thus, edit this file, not the
+! corresponding .lexc file.
+
+
 ! ul{aØ} /s
 !
 ! Epäsäännöllisiä adjektiiveja
@@ -33,19 +48,21 @@ yli{nm}{ØpmØ}{aäØ} /asup
 !
 ! epäsäännöllisiä substantiiveja
 !
-ruo{kØ}{aØ}+N+PL+ADE:ruuilla Clit ! & Nouns
-ruo{kØ}{aØ}+N+PL+ALL:ruuille Clit ! & Nouns
-ruo{kØ}{aØ}+N+PL+ELA:ruuista Clit ! & Nouns
-ruo{kØ}{aØ}+N+PL+INE:ruuissa Clit ! & Nouns
-ruo{kØ}{aØ}+N+PL+NOM:ruuat Clit ! & Nouns
-ruo{kØ}{aØ}+N+SG+ABE:ruuatta Clit ! & Nouns
-ruo{kØ}{aØ}+N+SG+ADE:ruualla Clit ! & Nouns
-ruo{kØ}{aØ}+N+SG+ADE:ruualta Clit ! & Nouns
-ruo{kØ}{aØ}+N+SG+ALL:ruualle Clit ! & Nouns
-ruo{kØ}{aØ}+N+SG+GEN:ruuan Clit ! & Nouns
-ruo{kØ}{aØ}+N+SG+INE:ruuassa Clit ! & Nouns
-ruo{kØ}{aØ}+N+SG+TRA:ruuaksi Clit ! & Nouns
-ruo{kØ}{aØ} /s ! & Nouns
+ruoka+N+PL+ADE:ruuilla Clit ! & Nouns
+ruoka+N+PL+ALL:ruuille Clit ! & Nouns
+ruoka+N+PL+ELA:ruuista Clit ! & Nouns
+ruoka+N+PL+INE:ruuissa Clit ! & Nouns
+ruoka+N+PL+NOM:ruuat Clit ! & Nouns
+ruoka+N+SG+ABE:ruuatta Clit ! & Nouns
+ruoka+N+SG+ADE:ruualla Clit ! & Nouns
+ruoka+N+SG+ADE:ruualta Clit ! & Nouns
+ruoka+N+SG+ALL:ruualle Clit ! & Nouns
+ruoka+N+SG+GEN:ruuan Clit ! & Nouns
+ruoka+N+SG+INE:ruuassa Clit ! & Nouns
+ruoka+N+SG+TRA:ruuaksi Clit ! & Nouns
+!ruo{kØ}{aØ} /s ! & Nouns
+ruoan:ruuan More
+jumala+N+PL+GEN:jumalten Clit ! in Nouns: jumal{aØ} /s
 !
 ! epäsäännöllisiä verbejä
 !
@@ -61,6 +78,7 @@ ei+V+NEG+3PL:eivät Clit
 ei+V+NEG+3PL:eivätkä End
 ei+V+NEG+3SG:ei Clit
 ei+V+NEG+3SG:eikä End
+ei+V+NEG+3SG:eiköhän End
 
 ellei+V+NEG+1PL:ellemme Clit
 ellei+V+NEG+1SG:ellen Clit
@@ -82,6 +100,27 @@ jollei+V+NEG+3SG:jollei Clit
 jollei+V+NEG+3SG:jollemme Clit
 jollei+V+NEG+2PL:jollette Clit
 jollei+V+NEG+3PL:jolleivät Clit
+
+miksei+V+NEG+1SG:miksen Clit
+miksei+V+NEG+2SG:mikset Clit
+miksei+V+NEG+3SG:miksei Clit
+miksei+V+NEG+1SG:miksemme Clit
+miksei+V+NEG+2SG:miksette Clit
+miksei+V+NEG+3PL:mikseivät Clit
+
+muttei+V+NEG+3SG:muttei Clit
+
+vaikkei+V+NEG+1SG:vaikken Clit
+vaikkei+V+NEG+2SG:vaikket Clit
+vaikkei+V+NEG+3SG:vaikkei Clit
+vaikkei+V+NEG+3SG:vaikkemme Clit
+vaikkei+V+NEG+2PL:vaikkette Clit
+vaikkei+V+NEG+3PL:vaikkeivät Clit
+
+älä+V+NEG+2SG:älä Clit
+älä+V+NEG+1PL:älkäämme Clit
+älä+V+NEG+2PL:älkää Clit
+älä+V+NEG+3PL:älkööt Clit
 
 olla+V+COND+ACT+1SG:olisin Clit
 olla+V+COND+ACT+1SG:oisin Clit ! dialect
@@ -162,6 +201,7 @@ i{td}u /s
 iv{ao} /s
 ja{aØ} /s
 jak{kØ}{iieØ} /s
+janne /s
 jen{ØieØ} /s
 jääm{iieØ} /s
 kal{iieØ} /s
@@ -625,8 +665,8 @@ ruis_ap{pØ}e{Øth}{ØeØeØ} /s
 !
 em{äØ} /s
 emän_em{äØ} /s
-hirvi{§}em{äØ} /s
-itiö{§}em{äØ} /s
+hirvi_em{äØ} /s
+itiö_em{äØ} /s
 !
 ! harmoni
 !
@@ -747,6 +787,7 @@ ravintola_il{tl}{ao} /s
 ryyppy_il{tl}{ao} /s
 sairastumis_il{tl}{ao} /s
 sauna_il{tl}{ao} /s
+sunnuntai{_}il{tl}{ao} /s
 syksy_il{tl}{ao} /s
 teema_il{tl}{ao} /s
 teko_il{tl}{ao} /s
@@ -769,7 +810,7 @@ koti_is{iieØ} /s
 ! isyys
 !
 isyy{ØØØØk}{stds}{ØeØeØ} /s
-pehmo{§}isyy{ØØØØk}{stds}{ØeØeØ} /s
+pehmo_isyy{ØØØØk}{stds}{ØeØeØ} /s
 !
 ! isä
 !
@@ -824,17 +865,17 @@ sala_iv{ao} /s
 !
 ! kirjo
 !
-i{kØ}{äØ}{§}kirjo /s
-kieli{§}kirjo /s
-laji{§}kirjo /s
-tapahtuma{§}kirjo /s
-tauti{§}kirjo /s
-toimi{§}al{ao}{§}kirjo /s
-tunne{§}kirjo /s
-tuote{§}kirjo /s
-tyyli{§}kirjo /s
-väri{§}kirjo /s
-ääni{§}kirjo /s
+i{kØ}{äØ}_kirjo /s
+kieli_kirjo /s
+laji_kirjo /s
+tapahtuma_kirjo /s
+tauti_kirjo /s
+toimi_al{ao}_kirjo /s
+tunne_kirjo /s
+tuote_kirjo /s
+tyyli_kirjo /s
+väri_kirjo /s
+ääni_kirjo /s
 !
 ! koi
 !
@@ -1067,10 +1108,10 @@ kita_la{kØ}{ieeeØ} /s
 ! laki ~laen
 !
 la{kØ}{ieeeØ} /s
-kita{§}la{kØ}{ieeeØ} /s
-pää{§}la{kØ}{ieeeØ} /s
-su{uØ}{§}la{kØ}{ieeeØ} /s
-vaaran{§}la{kØ}{ieeeØ} /s
+kita_la{kØ}{ieeeØ} /s
+pää_la{kØ}{ieeeØ} /s
+su{uØ}_la{kØ}{ieeeØ} /s
+vaaran_la{kØ}{ieeeØ} /s
 !
 ! laki ~lain
 !
@@ -1342,7 +1383,7 @@ teräs_last{ao} /s
 ! liito
 !
 lii{td}o /s
-pinta{§}lii{td}o /s
+pinta_lii{td}o /s
 laskeutumis_lii{td}o /s
 loppu_lii{td}o /s
 !
@@ -1657,104 +1698,104 @@ verkon_su{uØ} /s
 ! syy
 !
 sy{yØ} /s
-aika{§}taulu{§}sy{yØ} /s
-alkoholi{§}sy{yØ} /s
-alku{§}sy{yØ} /s
-arvo{§}val{tl}{ao}{§}sy{yØ} /s
-asiakas{§}palvelu{§}sy{yØ} /s
-asia{§}sy{yØ} /s
-asunto{§}markkin{ao}{§}sy{yØ} /s
-erityi{ns}{eeØØ}{nØØØ}{§}sy{yØ} /s
-hygieenisyys{§}sy{yØ} /s
-hygienia{§}sy{yØ} /s
-hylkäys{§}sy{yØ} /s
-häveliäisyys{§}sy{yØ} /s
-identiteetti{§}sy{yØ} /s
-ihme{§}sy{yØ} /s
-ilmasto{§}sy{yØ} /s
-imago{§}sy{yØ} /s
-järjestely{§}sy{yØ} /s
-järki{§}sy{yØ} /s
-jääviy{ØØØØk}{stds}{ØeØeØ}{§}sy{yØ} /s
-kannattavuus{§}sy{yØ} /s
-kannatus{§}sy{yØ} /s
-kauneus{§}sy{yØ} /s
-kieli{§}sy{yØ} /s
-kilpailu{§}sy{yØ} /s
-kohteliaisuus{§}sy{yØ} /s
-kohtuus{§}sy{yØ} /s
-korrektius{§}sy{yØ} /s
-kuljetus{§}sy{yØ} /s
-kulttuuri{§}sy{yØ} /s
-kunnia{§}sy{yØ} /s
-kuoleman{§}sy{yØ} /s
-kustannus{§}sy{yØ} /s
-käytännöllisyys{§}sy{yØ} /s
-laatu{§}sy{yØ} /s
-lihas{§}sy{yØ} /s
-lisä{§}sy{yØ} /s
-luonnon{§}suojelu{§}sy{yØ} /s
-lupa{§}sy{yØ} /s
-lähtö{§}sy{yØ} /s
-maisema{§}sy{yØ} /s
-markkina{§}sy{yØ} /s
-markkinointi{§}sy{yØ} /s
-matkailu{§}sy{yØ} /s
-mielen{§}tervey{ØØØØk}{stds}{ØeØeØ}{§}sy{yØ} /s
-moraali{§}sy{yØ} /s
-mukavuus{§}sy{yØ} /s
-opiskelu{§}sy{yØ} /s
-osa{§}sy{yØ} /s
-osoite{§}sy{yØ} /s
-palon{§}sy{yØ} /s
-palo{§}turvallisuu{ØØØØk}{stds}{ØeØeØ}{§}sy{yØ} /s
-palvelu{§}sy{yØ} /s
-perhe{§}sy{yØ} /s
-periaate{§}sy{yØ} /s
-perinne{§}sy{yØ} /s
-perus{§}sy{yØ} /s
-pää{§}sy{yØ} /s
-raha{§}sy{yØ} /s
-rahoitus{§}sy{yØ} /s
-rajan{§}veto{§}sy{yØ} /s
-resurssi{§}sy{yØ} /s
-sitoumus{§}sy{yØ} /s
-siveys{§}sy{yØ} /s
-solidaarisuus{§}sy{yØ} /s
-sovinnaisuus{§}sy{yØ} /s
-suhdanne{§}sy{yØ} /s
-suojelu{§}sy{yØ} /s
-synty{§}sy{yØ} /s
-säästö{§}sy{yØ} /s
-talous{§}sy{yØ} /s
-tasa{§}arvo{§}sy{yØ} /s
-tausta{§}sy{yØ} /s
-teko{§}sy{yØ} /s
-terveys{§}sy{yØ} /s
-tulon{§}jako{§}sy{yØ} /s
-tulo{§}sy{yØ} /s
-tunne{§}sy{yØ} /s
-tuotanto{§}sy{yØ} /s
-turvallisuus{§}sy{yØ} /s
-turva{§}sy{yØ} /s
-tutkinta{§}sy{yØ} /s
-työllisyys{§}sy{yØ} /s
-työ{§}suojelu{§}sy{yØ} /s
-työ{§}sy{yØ} /s
-työ{§}turvallisuu{ØØØØk}{stds}{ØeØeØ}{§}sy{yØ} /s
-ulko{§}nä{kØ}ö{§}sy{yØ} /s
-vaali{§}sy{yØ} /s
-valtion{§}osuu{ØØØØk}{stds}{ØeØeØ}{§}sy{yØ} /s
-valvonta{§}sy{yØ} /s
-varmuus{§}sy{yØ} /s
-varovaisuus{§}sy{yØ} /s
-vasta{§}sy{yØ} /s
-vero{§}sy{yØ} /s
-verotus{§}sy{yØ} /s
-ydin{§}sy{yØ} /s
-ylei{ns}{eeØØ}{nØØØ}{§}sy{yØ} /s
-ympäristön{§}suojelu{§}sy{yØ} /s
-ympäristö{§}sy{yØ} /s
+aika_taulu_sy{yØ} /s
+alkoholi_sy{yØ} /s
+alku_sy{yØ} /s
+arvo_val{tl}{ao}_sy{yØ} /s
+asiakas_palvelu_sy{yØ} /s
+asia_sy{yØ} /s
+asunto_markkin{ao}_sy{yØ} /s
+erityi{ns}{eeØØ}{nØØØ}_sy{yØ} /s
+hygieenisyys_sy{yØ} /s
+hygienia_sy{yØ} /s
+hylkäys_sy{yØ} /s
+häveliäisyys_sy{yØ} /s
+identiteetti_sy{yØ} /s
+ihme_sy{yØ} /s
+ilmasto_sy{yØ} /s
+imago_sy{yØ} /s
+järjestely_sy{yØ} /s
+järki_sy{yØ} /s
+jääviy{ØØØØk}{stds}{ØeØeØ}_sy{yØ} /s
+kannattavuus_sy{yØ} /s
+kannatus_sy{yØ} /s
+kauneus_sy{yØ} /s
+kieli_sy{yØ} /s
+kilpailu_sy{yØ} /s
+kohteliaisuus_sy{yØ} /s
+kohtuus_sy{yØ} /s
+korrektius_sy{yØ} /s
+kuljetus_sy{yØ} /s
+kulttuuri_sy{yØ} /s
+kunnia_sy{yØ} /s
+kuoleman_sy{yØ} /s
+kustannus_sy{yØ} /s
+käytännöllisyys_sy{yØ} /s
+laatu_sy{yØ} /s
+lihas_sy{yØ} /s
+lisä_sy{yØ} /s
+luonnon_suojelu_sy{yØ} /s
+lupa_sy{yØ} /s
+lähtö_sy{yØ} /s
+maisema_sy{yØ} /s
+markkina_sy{yØ} /s
+markkinointi_sy{yØ} /s
+matkailu_sy{yØ} /s
+mielen_tervey{ØØØØk}{stds}{ØeØeØ}_sy{yØ} /s
+moraali_sy{yØ} /s
+mukavuus_sy{yØ} /s
+opiskelu_sy{yØ} /s
+osa_sy{yØ} /s
+osoite_sy{yØ} /s
+palon_sy{yØ} /s
+palo_turvallisuu{ØØØØk}{stds}{ØeØeØ}_sy{yØ} /s
+palvelu_sy{yØ} /s
+perhe_sy{yØ} /s
+periaate_sy{yØ} /s
+perinne_sy{yØ} /s
+perus_sy{yØ} /s
+pää_sy{yØ} /s
+raha_sy{yØ} /s
+rahoitus_sy{yØ} /s
+rajan_veto_sy{yØ} /s
+resurssi_sy{yØ} /s
+sitoumus_sy{yØ} /s
+siveys_sy{yØ} /s
+solidaarisuus_sy{yØ} /s
+sovinnaisuus_sy{yØ} /s
+suhdanne_sy{yØ} /s
+suojelu_sy{yØ} /s
+synty_sy{yØ} /s
+säästö_sy{yØ} /s
+talous_sy{yØ} /s
+tasa_arvo_sy{yØ} /s
+tausta_sy{yØ} /s
+teko_sy{yØ} /s
+terveys_sy{yØ} /s
+tulon_jako_sy{yØ} /s
+tulo_sy{yØ} /s
+tunne_sy{yØ} /s
+tuotanto_sy{yØ} /s
+turvallisuus_sy{yØ} /s
+turva_sy{yØ} /s
+tutkinta_sy{yØ} /s
+työllisyys_sy{yØ} /s
+työ_suojelu_sy{yØ} /s
+työ_sy{yØ} /s
+työ_turvallisuu{ØØØØk}{stds}{ØeØeØ}_sy{yØ} /s
+ulko_nä{kØ}ö_sy{yØ} /s
+vaali_sy{yØ} /s
+valtion_osuu{ØØØØk}{stds}{ØeØeØ}_sy{yØ} /s
+valvonta_sy{yØ} /s
+varmuus_sy{yØ} /s
+varovaisuus_sy{yØ} /s
+vasta_sy{yØ} /s
+vero_sy{yØ} /s
+verotus_sy{yØ} /s
+ydin_sy{yØ} /s
+ylei{ns}{eeØØ}{nØØØ}_sy{yØ} /s
+ympäristön_suojelu_sy{yØ} /s
+ympäristö_sy{yØ} /s
 !
 ! takki
 !
@@ -1970,19 +2011,19 @@ yritys_tu{kØ}{ieeeØ} /s
 ! tuma
 !
 tum{aØ} /s
-solu{§}tum{aØ} /s
+solu_tum{aØ} /s
 !
 ! tutti
 !
 tut{tØ}{iieØ} /s
 annostelu_tut{tØ}{iieØ} /s
-huvi{§}tut{tØ}{iieØ} /s
-kumi{§}tut{tØ}{iieØ} /s
+huvi_tut{tØ}{iieØ} /s
+kumi_tut{tØ}{iieØ} /s
 turva_tut{tØ}{iieØ} /s
 !
 ! uusi
 !
-quu{tds}{ieØeØ} /a
+uu{tds}{ieØeØ} /a
 vanha_uu{tds}{ieØeØ} /a ! ?
 !
 ! vuo
